@@ -1,7 +1,7 @@
 import { createServer } from 'http';
-import { success } from './lib/log'
+import { success } from './lib'
 
-import App from './config/express';
+import App from './config';
 
 const app = App.express;
 
