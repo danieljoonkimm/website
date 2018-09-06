@@ -1,13 +1,13 @@
 require('dotenv').config();
 const webpack = require('webpack');
 const { resolve } = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-const extractStyles = new MiniCssExtractPlugin({
-  filename: "main.css",
-  chunkFilename: "[id].css"
-});
+// const extractStyles = new MiniCssExtractPlugin({
+//   filename: "main.css",
+//   chunkFilename: "[id].css"
+// });
 
 const optimizeStyles = new OptimizeCssAssetsPlugin({
   assetNameRegExp: /\.optimize\.css$/g,
@@ -42,12 +42,7 @@ module.exports = {
       },
       {
         test: /\.(scss|css)$/,
-        loaders: [ MiniCssExtractPlugin.loader, {
-          loader: 'css-loader',
-          options: {
-            minimize: true
-          }
-        }, 'sass-loader', ],
+        loaders: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader'],
       },
     ]
   },
