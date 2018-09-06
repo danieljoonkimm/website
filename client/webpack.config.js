@@ -1,6 +1,20 @@
 require('dotenv').config();
 const webpack = require('webpack');
 const { resolve } = require('path');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+
+const extractStyles = new MiniCssExtractPlugin({
+  filename: "main.css",
+  chunkFilename: "[id].css"
+});
+
+const optimizeStyles = new OptimizeCssAssetsPlugin({
+  assetNameRegExp: /\.optimize\.css$/g,
+  cssProcessor: require('cssnano'),
+  cssProcessorOptions: { discardComments: { removeAll: true } },
+  canPrint: true
+});
 
 const envVariables = new webpack.DefinePlugin({
   'process.env': {
@@ -25,7 +39,16 @@ module.exports = {
         options: {
           presets: [ 'env', 'react' ]
         }
-      }
+      },
+      {
+        test: /\.(scss|css)$/,
+        loaders: [ MiniCssExtractPlugin.loader, {
+          loader: 'css-loader',
+          options: {
+            minimize: true
+          }
+        }, 'sass-loader', ],
+      },
     ]
   },
   resolve: {

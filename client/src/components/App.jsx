@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Header from '../components/Header';
+
 class App extends Component {
     constructor() {
         super();
@@ -12,7 +14,7 @@ class App extends Component {
     render() {
         return(
             <div>
-                hello this is from app
+                <Header/>
             </div>
         )
     }
