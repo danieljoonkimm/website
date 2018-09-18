@@ -21,6 +21,7 @@
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
     "react-toastify": "^4.2.3",
+    "react-typed": "^1.0.9",
     "smoothscroll": "^0.4.0",
     "url-loader": "^1.1.1"
   },
