@@ -35,13 +35,17 @@ class Header extends Component {
 
     render() {
         return(
-            <div className='wrapper'>
-                <Typed className='wrapper-child'
-                    strings={['^1000 DANIEL KIM']}
-                    typeSpeed={80}
-                    showCursor={false}
-                >
-                </Typed>
+            <div>
+                <div className='wrapper'>
+                    <Typed className='wrapper-child'
+                        strings={['^1000 DANIEL KIM']}
+                        typeSpeed={80}
+                        showCursor={false}
+                    >
+                    </Typed>
+                </div>
+
+                
             </div>
         )
     }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
+import About from '../components/About';
 
 class App extends Component {
     constructor() {
@@ -17,6 +18,7 @@ class App extends Component {
             <div>
                 <Header/>
                 <Navigation/>
+                <About/>
             </div>
         )
     }
