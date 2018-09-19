@@ -39,6 +39,7 @@ class Header extends Component {
                 <Typed className='wrapper-child'
                     strings={['^1000 DANIEL KIM']}
                     typeSpeed={80}
+                    showCursor={false}
                 >
                 </Typed>
             </div>

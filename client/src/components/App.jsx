@@ -15,8 +15,8 @@ class App extends Component {
     render() {
         return(
             <div>
-                <Navigation/>
                 <Header/>
+                <Navigation/>
             </div>
         )
     }

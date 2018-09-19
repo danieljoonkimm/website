@@ -13,23 +13,14 @@ class Navigation extends Component {
 
     render() {
         return(
-            <div className='navigation'>
-                <ul className='navbar'>
-                    <li className='navbarborder'>
-                        <a href="#about Me">About Me</a>
-                    </li>
 
-                    <li className='navbarborder'>
-                        <a href="skills">Skills</a>
-                    </li>
 
-                    <li className='navbarborder'>
-                        <a href="portfolio">Portolfio</a>
-                    </li>
-
-                    <li className='navbarborder'>
-                        <a href="contact">Contact Me</a>
-                    </li>
+            <div id='cssmenu'>
+                <ul>
+                    <li className='active'><a href='#'>Home</a></li>
+                    <li><a href='#'>About Me</a></li>
+                    <li><a href='#'>Skills</a></li>
+                    <li><a href='#'>Contact Me</a></li>
                 </ul>
             </div>
         )
