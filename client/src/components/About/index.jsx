@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './about.scss';
 
 class About extends Component {
     constructor() {
@@ -11,11 +12,9 @@ class About extends Component {
     render() {
         return(
             <div className='aboutMe'>
-                <div>
-                    <h1>Hi, I'm Daniel!</h1>
-                </div>
+                    <h1 className='aboutMe-Header'>Hi, I'm Daniel!</h1>
 
-                <div>
+                <div className='aboutMe-paragraph'>
                     <p>I'm a software engineer from Los Angeles.
                         I want to build a product that I'm passionate about - build a company around that product and grow
                         personally and professionally regardless of financial gains.
