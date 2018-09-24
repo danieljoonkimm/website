@@ -13,8 +13,6 @@ class Navigation extends Component {
 
     render() {
         return(
-
-
             <div id='cssmenu'>
                 <ul>
                     <li className='active'><a href='#'>Home</a></li>
