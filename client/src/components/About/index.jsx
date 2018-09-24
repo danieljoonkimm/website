@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './about.scss';
+import aboutMePicture from '../../../public/aboutMePicture.jpg';
 
 class About extends Component {
     constructor() {
@@ -11,9 +12,13 @@ class About extends Component {
 
     render() {
         return(
-            
             <div className='aboutMe'>
-                    <h1 className='aboutMe-Header'>Hi, I'm Daniel!</h1>
+                <div className='aboutMePicture'>
+                    <img src={aboutMePicture}/>
+                </div>
+                
+                <div className='headerAndParagraph'>
+                    <h1 className='aboutMe-Header'>HI, I'M DANIEL!</h1>
 
                 <div className='aboutMe-paragraph'>
                     <p>I'm a software engineer from Los Angeles.
@@ -24,6 +29,7 @@ class About extends Component {
                         Life has a great way of intervening in the way of well laid plans,
                         and the best plan is knowing that your plan could be broken; I
                         took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
+                </div>
                 </div>
             </div>
         )

@@ -1,9 +1,54 @@
 @import '../../../global/global.scss';
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 .aboutMe {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 21px;
     background-color: rgb(111, 111, 185);
     color: white;
+    font-family: sans-serif;
+}
+
+.aboutMePicture {
+
+    img {
+        border-radius: 50%;
+        width: 375px;
+        padding: 15px;
+        margin-left: 50px;
+        margin-top: 68px;
+    }
+}
+
+.headerAndParagraph {
+    display: flex;
+    flex-direction: column;
+    padding: 94px;
+    line-height: 2.0em;
+
+    h1 {
+        font-size: 22px;
+        position: relative;
+        background: #3db2e1;
+        border-radius: .4em;
+        text-align: center;
+        box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+        margin-bottom: 10px;
+        padding: 9px;
+    }
+
+    h1:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-right-color: #3db2e1;
+        border-left: 0;
+        border-bottom: 0;
+        margin-top: -10px;
+        margin-left: -20px;
+    }
 }
