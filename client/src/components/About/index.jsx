@@ -69,6 +69,21 @@ class About extends Component {
                         <img src={vegasPic}/>
                     </div>
                 </div>
+
+                <div className='about-content'>
+                    <div className='about-me'>
+                        <h1>Why I Love Coding</h1>
+                    </div>
+
+                    <div className='about-me-description'>
+                        <ol>
+                            <li>
+                                hi
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
             </div>
         )
     }
