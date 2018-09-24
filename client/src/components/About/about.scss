@@ -52,3 +52,28 @@
         margin-left: -20px;
     }
 }
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 45px 0;
+  
+  
+    .photo-grid-items {
+      width: 33.333%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        height: 450px;
+        // -webkit-filter: grayscale(100%);
+        width: 100%;
+      }
+      
+      img:hover {
+        filter: none;
+      }
+    }
+  }
