@@ -78,3 +78,34 @@
       }
     }
   }
+
+  .about-content {
+      display: flex;
+      flex-direction: column;
+      background-color: #6f6fb9;
+      color: white;
+      line-height: 1.8em;
+      font-family: apple chancery;
+
+      ol {
+        list-style-type: decimal;
+        list-style-position: inside;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px;
+      }
+
+      li {
+          font-size: 19px;
+      }
+
+      h1 {
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          margin-top: 16px;
+          text-decoration: underline;
+      }
+  }
