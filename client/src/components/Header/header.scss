@@ -20,6 +20,7 @@ body {
     //verical alignment
     align-items: center;
     background-image: url('../../../public/snowboard.jpg');
+    background-attachment: fixed;
     height: 100vh;
     //horizontal alignment
     justify-content: center;
@@ -29,12 +30,13 @@ body {
     background-size: cover;
     color: white;
     padding: 20px;
+
+    .wrapper-child {
+        display: flex;
+        font-size: 90px;
+    }
 }
 
-.wrapper-child {
-    display: flex;
-    font-size: 50px;
-}
 /*
 this styling is for changing text for hover
 

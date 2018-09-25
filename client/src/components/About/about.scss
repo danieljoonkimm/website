@@ -20,6 +20,14 @@
     }
 }
 
+.about-me-description {
+    line-height: 2.0em;
+
+    em {
+        font-size: 30px;
+    }
+}
+
 .headerAndParagraph {
     display: flex;
     flex-direction: column;
@@ -86,6 +94,8 @@
       color: white;
       line-height: 1.8em;
       font-family: apple chancery;
+      padding-left: 20px;
+      padding-right: 20px;
 
       ol {
         list-style-type: decimal;
@@ -102,10 +112,12 @@
       }
 
       h1 {
-          font-size: 25px;
+          font-size: 42px;
           display: flex;
           justify-content: center;
           margin-top: 16px;
           text-decoration: underline;
+          padding-bottom: 7px;
+          padding-top: 12px;
       }
   }
