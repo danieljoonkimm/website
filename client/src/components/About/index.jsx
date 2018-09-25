@@ -23,7 +23,11 @@ class About extends Component {
         return(
             <div>
                 <div className='aboutMe'>
+                
                     <div className='aboutMePicture'>
+                        <img src={aboutMePicture}/>
+                        <img src={aboutMePicture}/>
+                        <img src={aboutMePicture}/>
                         <img src={aboutMePicture}/>
                     </div>
 
