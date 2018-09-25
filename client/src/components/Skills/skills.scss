@@ -1,0 +1,27 @@
+@import '../../../global/global.scss';
+
+.skills {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.containerForSkills {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerSkills {
+    display: flex;
+    
+    h1 {
+        font-size: 42px;
+        text-transform: uppercase;
+        letter-spacing: .07em;
+        line-height: 1em;
+        padding-bottom: 22.5px;
+        padding-top: 12px;
+        text-decoration: underline;
+    }
+}
