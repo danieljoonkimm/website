@@ -61,6 +61,8 @@
             font-size: 78px;
             font-family: 'Montserrat';
             font-weight: 1000;
+            text-shadow: 2px 0 black;
+            letter-spacing:2px;
         }
     }
 }
@@ -79,4 +81,5 @@
     text-align: left;
     font-size: 0;
     animation: 15s slider infinite;
+    filter: blur(2px);
 }

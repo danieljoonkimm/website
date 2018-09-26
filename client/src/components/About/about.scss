@@ -8,6 +8,7 @@
     color: white;
     font-family: 'Montserrat';
     font-weight: bold;
+    opacity: .95;
 }
 
 .aboutMePicture {
@@ -63,6 +64,7 @@
     em {
         font-size: 30px;
         text-decoration: underline;
+        font-family: cursive;
     }
 }
 
@@ -70,6 +72,9 @@
     h1 {
         letter-spacing: .1em;
         line-height: 1em;
+        text-transform: uppercase;
+        text-shadow: 2px 0 white;
+        letter-spacing: 2x;
     }
 }
 
@@ -135,7 +140,8 @@
       background-color: #6f6fb9;
       color: white;
       line-height: 1.8em;
-      font-family: apple chancery;
+      font-family: 'Montserrat';
+      font-weight: bold;
       padding-left: 20px;
       padding-right: 20px;
 
