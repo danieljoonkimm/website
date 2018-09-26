@@ -26,6 +26,7 @@
         transition: 0.5s;
     }
 }
+/*
 //you can delete this to revert
 .aboutMePicture:hover img:nth-child(4) {
     transform: translate(40px, -40px);
@@ -45,7 +46,7 @@
 .aboutMePicture:hover img:nth-child(1) {
     transform: translate(10px, -10px);
     opacity: .4;
-}
+}*/
 
 .aboutMe-Header {
     margin-left: 400px;
@@ -124,12 +125,9 @@
         //fix
         width: 100%;
       }
-      
-      img:hover {
-        filter: none;
-      }
     }
   }
+  
 
   .about-content {
       display: flex;

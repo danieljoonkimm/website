@@ -51,26 +51,32 @@ class About extends Component {
                 <div className='photo-grid'>
                     <div className='photo-grid-items'>
                         <img src={clubPic}/>
+                        <p>Daniel</p>
                     </div>
 
                     <div className='photo-grid-items'>
                         <img src={conniemePic}/>
+                        <p>Daniel</p>
                     </div>
 
                     <div className='photo-grid-items'>
                         <img src={halloweenPic}/>
+                        <p>Daniel</p>
                     </div>
 
                     <div className='photo-grid-items'>
                         <img src={nrbPic}/>
+                        <p>Daniel</p>
                     </div>
 
                     <div className='photo-grid-items'>
                         <img src={snowboardingPicture}/>
+                        <p>Daniel</p>
                     </div>
 
                     <div className='photo-grid-items'>
                         <img src={vegasPic}/>
+                        <p>Daniel</p>
                     </div>
                 </div>
 
