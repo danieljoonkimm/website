@@ -14,7 +14,7 @@ class Navigation extends Component {
     render() {
         
         return(
-            <div id='cssmenu'>
+            <div className='container red topBotomBordersOut'>
                 <ul>
                     <li className='active'><a href='#'>Home</a></li>
                     <li><a href='#'>About Me</a></li>
