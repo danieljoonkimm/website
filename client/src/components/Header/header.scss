@@ -75,44 +75,5 @@
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: 20s slider infinite;
+    animation: 13s slider infinite;
 }
-/*
-.wrapper {
-    display: flex;
-    //verical alignment
-    align-items: center;
-    background-image: url('../../../public/background1.jpg');
-    background-attachment: fixed;
-    height: 100vh;
-    //horizontal alignment
-    justify-content: center;
-    font-size: 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    padding: 20px;
-
-    .wrapper-child {
-        display: flex;
-        font-size: 90px;
-    }
-}
-*/
-/*
-this styling is for changing text for hover
-
-.wrapper:hover {
-    font-size: 0;
-}
-
-.wrapper:hover:after {
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200px;
-    text-align: center;
-}
-
-*/
