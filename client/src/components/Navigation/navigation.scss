@@ -7,6 +7,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: -1px;
+  z-index: 1000;
+  width: 100%;
 
   ul {
     display: flex;
@@ -32,7 +36,7 @@
 {
     background: #fff;
     opacity: .9;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
 }
 
 .topBotomBordersOut a:before, .topBotomBordersOut a:after

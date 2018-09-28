@@ -51,7 +51,7 @@ class Header extends Component {
                 </figure>
                     <div className='wrapper'>
                         <Typed className='wrapper-child'
-                            strings={['^1000 DANIEL KIM']}
+                            strings={['^1000 -DANIEL KIM-']}
                             typeSpeed={80}
                             showCursor={false}
                         >
