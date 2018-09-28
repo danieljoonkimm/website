@@ -113,28 +113,30 @@
     }
 }
 
-.photo-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 45px 0;
-  
-  
-    .photo-grid-items {
-      width: 33.333%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-      img {
-        height: 450px;
-        // -webkit-filter: grayscale(100%);
-        //fix
-        width: 100%;
-      }
-    }
+.polaroid {
+    position: relative;
+    width: 220px;
   }
-  
+   
+  .polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+    height: 400px;
+  }
+   
+  .polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    font: 400 18px/1 'Kaushan Script', cursive;
+    color: #888;
+    padding-bottom: 15px;
+    margin-left: 72px;
+  }
 
   .about-content {
       display: flex;

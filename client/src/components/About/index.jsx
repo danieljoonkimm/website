@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './about.scss';
 
-import aboutMePicture from '../../../public/aboutMePicture.jpg';
-import clubPic from '../../../public/clubPic.jpg';
-import conniemePic from '../../../public/conniemePic.jpg';
-import halloweenPic from '../../../public/halloweenPic.jpg';
-import nrbPic from '../../../public/nrbPic.jpg';
-import snowboardingPicture from '../../../public/snowboardingPicture.jpg';
-import vegasPic from '../../../public/vegasPic.jpg';
+import picture1 from '../../../public/1.jpg';
+import picture2 from '../../../public/2.jpg';
+import picture3 from '../../../public/3.jpg';
+import picture4 from '../../../public/4.jpg';
+import picture5 from '../../../public/5.jpg';
+import picture6 from '../../../public/6.jpg';
 
 
 
@@ -58,36 +57,29 @@ class About extends Component {
 
                 </div>
 
-                <div className='photo-grid'>
-                    <div className='photo-grid-items'>
-                        <img src={clubPic}/>
-                        <p>Daniel</p>
-                    </div>
-
-                    <div className='photo-grid-items'>
-                        <img src={conniemePic}/>
-                        <p>Daniel</p>
-                    </div>
-
-                    <div className='photo-grid-items'>
-                        <img src={halloweenPic}/>
-                        <p>Daniel</p>
-                    </div>
-
-                    <div className='photo-grid-items'>
-                        <img src={nrbPic}/>
-                        <p>Daniel</p>
-                    </div>
-
-                    <div className='photo-grid-items'>
-                        <img src={snowboardingPicture}/>
-                        <p>Daniel</p>
-                    </div>
-
-                    <div className='photo-grid-items'>
-                        <img src={vegasPic}/>
-                        <p>Daniel</p>
-                    </div>
+                <div className="polaroid">
+                    <p>My Birthday Picture</p>
+                    <img src={picture1} />
+                </div>
+                <div className="polaroid">
+                    <p>Night Out With Friends</p>
+                    <img src={picture2} />
+                </div>
+                <div className="polaroid">
+                    <p>Best Friends</p>
+                    <img src={picture3} />
+                </div>
+                <div className="polaroid">
+                    <p>Me and Girlfriend</p>
+                    <img src={picture4} />
+                </div>
+                <div className="polaroid">
+                    <p>Celebrating Life</p>
+                    <img src={picture5} />
+                </div>
+                <div className="polaroid">
+                    <p>Me and Girlfriend P2</p>
+                    <img src={picture6} />
                 </div>
 
                 <div className='about-content'>
