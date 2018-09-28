@@ -16,7 +16,7 @@ class Skills extends Component {
 
                 <div className='containerForSkills'>
                     <div className='headerSkills'>
-                        <h1>-Technical Skills-</h1>
+                        <h1>-Skills-</h1>
                     </div>
 
                     <div>
