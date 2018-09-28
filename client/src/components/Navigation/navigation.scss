@@ -28,10 +28,11 @@
     cursor: pointer;
     font-weight: bold;
 }
-.red
+.child
 {
     background: #fff;
     opacity: .9;
+    border-bottom: 1px solid #eee
 }
 
 .topBotomBordersOut a:before, .topBotomBordersOut a:after
@@ -64,5 +65,5 @@
 {
     opacity: 1;
     transform: translateY(0px);
-    background: #e44f59;
+    background: #ff2a2a;
 }

@@ -2,31 +2,55 @@
 
 .aboutMe {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 21px;
-    background-color: #E98000;
     color: white;
     font-family: 'Montserrat';
     font-weight: bold;
     opacity: .95;
-}
+    height: 100vh;
 
-.aboutMePicture {
-
-    position: relative;
-    transition: 0.5s;
-
-    img {
-        border-radius: 50%;
-        width: 375px;
-        padding: 15px;
-        margin-left: 50px;
-        margin-top: 68px;
-        //you can delete this to revert
-        position: absolute;
-        transition: 0.5s;
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #2c3e50;
+        margin-bottom: 44px;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding-top: 40px;
     }
 }
+
+.containerAbout {
+    display: flex;
+    border: 1px solid #EEE;
+    background: url('../../../public/aboutMePicture.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 96px;
+    padding: 42px;
+    margin-top: 45px;
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        color: black;
+        margin-top: 295px;
+        font-size: 17px;
+        line-height: 1.8em;
+    }
+}
+
+.containerForPicDescription {
+    display: flex;
+    margin-left: 31px;
+    margin-right: 15px;
+    margin-top: -11px;
+}
+
 /*
 //you can delete this to revert
 .aboutMePicture:hover img:nth-child(4) {
@@ -54,8 +78,19 @@
 }
 
 .aboutMe-paragraph {
-    margin-left: 400px;
+    margin-left: 96px;
+    margin-right: 60px;
     color: #062F4F;
+    line-height: 2em;
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        margin-top: -27px;
+        text-align: justify;
+    }
 }
 
 .about-me-description {
@@ -75,39 +110,6 @@
         text-transform: uppercase;
         text-shadow: 2px 0 white;
         letter-spacing: 2x;
-    }
-}
-
-.headerAndParagraph {
-    display: flex;
-    flex-direction: column;
-    padding: 94px;
-    line-height: 2.0em;
-
-    h1 {
-        font-size: 22px;
-        position: relative;
-        background: #008e95;
-        border-radius: .4em;
-        text-align: center;
-        box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
-        margin-bottom: 10px;
-        padding: 9px;
-    }
-
-    h1:after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 0;
-        height: 0;
-        border: 20px solid transparent;
-        border-right-color: #008e95;
-        border-left: 0;
-        border-bottom: 0;
-        margin-top: -10px;
-        margin-left: -20px;
     }
 }
 

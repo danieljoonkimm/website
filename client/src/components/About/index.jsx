@@ -23,27 +23,37 @@ class About extends Component {
         return(
             <div>
                 <div className='aboutMe'>
+
+                    <h1>About Me</h1>
+
+                    <div className='containerForPicDescription'>
+
+                        <div className='aboutMe-paragraph'>
+                            <h1>Who I Am</h1>
+                                <p>I'm a software engineer from Los Angeles.
+                                    I want to build a product that I'm passionate about - build a company around that product and grow
+                                    personally and professionally regardless of financial gains.
+                                    I've learned from past careers that money does not equal happiness.
+                                    Some food for thought: passion and happiness is always more important than stability.
+                                    Life has a great way of intervening in the way of well laid plans,
+                                    and the best plan is knowing that your plan could be broken; I
+                                    took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
+                            <h1>What I Do</h1>
+                                <p>Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications 
+                                   and optimizing front-end experiences through server-side 
+                                   rendering and third party libraries like Redis, and React-router. </p>
+                        </div>
+
+
+                        <div className='containerAbout'>
+                            <ul>
+                                <li>Name: Daniel Kim</li>
+                                <li>Date of Birth: 01 April 1992</li>
+                                <li>Location: Los Angeles</li>
+                                <li>Email: danieljoonkimm@gmail.com</li>
+                            </ul>
+                        </div>
                 
-                    <div className='aboutMePicture'>
-                        <img src={aboutMePicture}/>
-                        <img src={aboutMePicture}/>
-                        <img src={aboutMePicture}/>
-                        <img src={aboutMePicture}/>
-                    </div>
-
-                    <div className='headerAndParagraph'>
-                        <h1 className='aboutMe-Header'>HI, I'M DANIEL!</h1>
-
-                    <div className='aboutMe-paragraph'>
-                        <p>I'm a software engineer from Los Angeles.
-                            I want to build a product that I'm passionate about - build a company around that product and grow
-                            personally and professionally regardless of financial gains.
-                            I've learned from past careers that money does not equal happiness.
-                            Some food for thought: passion and happiness is always more important than stability.
-                            Life has a great way of intervening in the way of well laid plans,
-                            and the best plan is knowing that your plan could be broken; I
-                            took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
-                    </div>
                 </div>
 
                 </div>
