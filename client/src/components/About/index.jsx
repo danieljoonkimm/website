@@ -57,73 +57,78 @@ class About extends Component {
 
                 </div>
 
-                <div className="polaroid">
-                    <p>My Birthday Picture</p>
-                    <img src={picture1} />
-                </div>
-                <div className="polaroid">
-                    <p>Night Out With Friends</p>
-                    <img src={picture2} />
-                </div>
-                <div className="polaroid">
-                    <p>Best Friends</p>
-                    <img src={picture3} />
-                </div>
-                <div className="polaroid">
-                    <p>Me and Girlfriend</p>
-                    <img src={picture4} />
-                </div>
-                <div className="polaroid">
-                    <p>Celebrating Life</p>
-                    <img src={picture5} />
-                </div>
-                <div className="polaroid">
-                    <p>Me and Girlfriend P2</p>
-                    <img src={picture6} />
-                </div>
-
-                <div className='about-content'>
-                    <div className='about-me'>
-                        <h1>Why I Love Coding</h1>
+                <div>
+                    <div className='polaroid-parent'>
+                        <div className="polaroid">
+                            <p>My Birthday Picture</p>
+                            <img src={picture1} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Night Out With Friends</p>
+                            <img src={picture2} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Best Friends</p>
+                            <img src={picture3} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Me and Girlfriend</p>
+                            <img src={picture4} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Celebrating Life</p>
+                            <img src={picture5} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Me and Girlfriend P2</p>
+                            <img src={picture6} />
+                        </div>
                     </div>
+                        
+                        <div className='about-content'>
+                            <div className='about-me'>
+                                <h1>Why I Love Coding</h1>
+                            </div>
+                        
 
-                    <div className='about-me-description'>
-                        <ol>
-                            <li>
-                                <em>Perseverance and optimism: </em> 
-                                Programmers have to be okay with constantly failing - your code is oftentimes not going to work on your first try. 
-                                One of my favorite quotes about failure: "Fear of failure is caused by not knowing how to fail constructively.” 
-                                (from The Art of Mental Training) Programming teaches you how to fail constructively - 
-                                how to move forward and try a different approach each time you fail.
-                            </li>
+                            <div className='about-me-description'>
+                                <ol>
+                                    <li>
+                                        <em>Perseverance and optimism: </em> 
+                                        Programmers have to be okay with constantly failing - your code is oftentimes not going to work on your first try. 
+                                        One of my favorite quotes about failure: "Fear of failure is caused by not knowing how to fail constructively.” 
+                                        (from The Art of Mental Training) Programming teaches you how to fail constructively - 
+                                        how to move forward and try a different approach each time you fail.
+                                    </li>
 
-                            <li>
-                                <em>Patience: </em>
-                                Staying patient through the failures is a necessary skill to develop as a programmer. 
-                                It may take several attempts - spanning hours or days - to work through a complex programming problem. 
-                                Sometimes you will feel like you’ve tried everything and still haven’t found a solution while a deadline 
-                                is fast approaching. Staying calm allows you to continue to focus on your work rather than freezing up.
-                            </li>
+                                    <li>
+                                        <em>Patience: </em>
+                                        Staying patient through the failures is a necessary skill to develop as a programmer. 
+                                        It may take several attempts - spanning hours or days - to work through a complex programming problem. 
+                                        Sometimes you will feel like you’ve tried everything and still haven’t found a solution while a deadline 
+                                        is fast approaching. Staying calm allows you to continue to focus on your work rather than freezing up.
+                                    </li>
 
-                            <li>
-                                <em>Organization and focus: </em>
-                                You may be juggling several variable definitions, code changes, or alternate solutions as you tackle a single problem.
-                            </li>
+                                    <li>
+                                        <em>Organization and focus: </em>
+                                        You may be juggling several variable definitions, code changes, or alternate solutions as you tackle a single problem.
+                                    </li>
 
-                            <li>
-                                <em>Linear thinking: </em>
-                                I noticed I was more logical and clear in my thought process when I began learning programming. 
-                                Becoming a programmer requires you to be methodical by analyzing an issue, systematically attempting solutions, 
-                                and learning from unsuccessful attempts in order to move forward. A programming problem is not going to just go 
-                                away if you can’t find a solution - you must always find a solution.
-                            </li>
+                                    <li>
+                                        <em>Linear thinking: </em>
+                                        I noticed I was more logical and clear in my thought process when I began learning programming. 
+                                        Becoming a programmer requires you to be methodical by analyzing an issue, systematically attempting solutions, 
+                                        and learning from unsuccessful attempts in order to move forward. A programming problem is not going to just go 
+                                        away if you can’t find a solution - you must always find a solution.
+                                    </li>
 
-                            <li>
-                                <em>Adaptability: </em>
-                                Features and requirements can rapidly change in software development, and it’s important to be able 
-                                to roll with the punches. Flow around the rock!
-                            </li>
-                        </ol>
+                                    <li>
+                                        <em>Adaptability: </em>
+                                        Features and requirements can rapidly change in software development, and it’s important to be able 
+                                        to roll with the punches. Flow around the rock!
+                                    </li>
+                                </ol>
+                            </div>
                     </div>
 
                 </div>
