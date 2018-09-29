@@ -8,9 +8,6 @@ import picture4 from '../../../public/4.jpg';
 import picture5 from '../../../public/5.jpg';
 import picture6 from '../../../public/6.jpg';
 
-import { Animated } from 'react-animated-css';
-
-
 class About extends Component {
     constructor() {
         super();
@@ -21,7 +18,6 @@ class About extends Component {
 
     render() {
         return(
-            <Animated animationIn='bounceInUp' animationOut="fadeOut" isVisible={true}>
             <div>
                 <div className='aboutMe'>
 
@@ -30,7 +26,7 @@ class About extends Component {
                     <div className='containerForPicDescription'>
 
                         <div className='aboutMe-paragraph'>
-                            <h1>-Who I Am-</h1>
+                            <h1>Who I Am</h1>
                                 <p>I'm a software engineer from Los Angeles.
                                     I want to build a product that I'm passionate about - build a company around that product and grow
                                     personally and professionally regardless of financial gains.
@@ -39,7 +35,7 @@ class About extends Component {
                                     Life has a great way of intervening in the way of well laid plans,
                                     and the best plan is knowing that your plan could be broken; I
                                     took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
-                            <h1>-What I Do-</h1>
+                            <h1>What I Do</h1>
                                 <p>Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications 
                                    and optimizing front-end experiences through server-side 
                                    rendering and third party libraries like Redis, and React-router. </p>
@@ -135,7 +131,6 @@ class About extends Component {
 
                 </div>
             </div>
-            </Animated>
         )
     }
 }
