@@ -1,7 +1,6 @@
 @import '../../../global/global.scss';
 
 .skills {
-    display: flex;
     font-family: 'Montserrat';
     justify-content: center;
     background-color: #eaeaea;
@@ -10,13 +9,12 @@
 }
 
 .containerForSkills {
-    display: flex;
     flex-direction: column;
 
 }
 
 .headerSkills {
-    display: flex;
+    padding-top: 12px;
     
     h1 {
         font-size: 42px;
@@ -29,5 +27,7 @@
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
+        display: flex;
+        justify-content: center;
     }
 }
