@@ -21,7 +21,7 @@ class Skills extends Component {
                     <div className='headerSkills'>
                         <h1>-Skills-</h1>
                     </div>
-
+                    
                     <div className='col-md-6'>
                         <div className='skill-progress'>
                             <div className='skill-title'>
@@ -49,7 +49,9 @@ class Skills extends Component {
                                 <Progress percent={88}/>
                             </div>
                         </div>
+                    </div>
 
+                    <div className='col-md-6'>
                         <div className='skill-progress'>
                             <div className='skill-title'>
                                 <h3>HTML5/CSS3</h3>
@@ -78,8 +80,23 @@ class Skills extends Component {
                         </div>
 
                     </div>
+
                 </div>
 
+                <div className='moreSkills'>
+                    <h1>More Skills</h1>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>MySQL</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                </div>
+                
             </div>
             
         )
