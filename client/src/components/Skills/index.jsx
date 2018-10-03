@@ -82,13 +82,58 @@ class Skills extends Component {
                     </div>
 
                 </div>
-
+                
                 <div className='moreSkills'>
                     <h1>More Skills</h1>
 
                     <div>
                         <div className='skill-title'>
                             <h3>MySQL</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>Socket.iO</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>PostgreSQL</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>PHP</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>Webpack</h3>
+                        </div>
+                        <div className='progress'>
+                            <Progress type='circle' percent={88}/>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className='skill-title'>
+                            <h3>SASS</h3>
                         </div>
                         <div className='progress'>
                             <Progress type='circle' percent={88}/>
