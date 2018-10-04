@@ -7,6 +7,7 @@ import picture3 from '../../../public/3.jpg';
 import picture4 from '../../../public/4.jpg';
 import picture5 from '../../../public/5.jpg';
 import picture6 from '../../../public/6.jpg';
+import aboutMePicture from '../../../public/aboutMePicture.jpg';
 
 class About extends Component {
     constructor() {
@@ -41,8 +42,10 @@ class About extends Component {
                                    rendering and third party libraries like Redis, and React-router. </p>
                         </div>
 
-
                         <div className='containerAbout'>
+                            <div className='aboutPicture'>
+                                <img src={aboutMePicture}/>
+                            </div>
                             <ul>
                                 <li>Name: Daniel Kim</li>
                                 <li>Date of Birth: 01 April 1992</li>
@@ -50,10 +53,11 @@ class About extends Component {
                                 <li>Email: danieljoonkimm@gmail.com</li>
                             </ul>
                         </div>
+
                 
                 </div>
 
-                </div>
+                
 
                 <div>
                     <div className='polaroid-parent'>
@@ -131,6 +135,7 @@ class About extends Component {
 
                 </div>
             </div>
+        </div>
         )
     }
 }

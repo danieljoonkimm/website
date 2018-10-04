@@ -1,5 +1,5 @@
 @import '../../../global/global.scss';
-
+/*
 .aboutMe {
     display: flex;
     width: 100%;
@@ -10,6 +10,7 @@
     font-weight: bold;
     opacity: .95;
     height: 100vh;
+    height: auto;
 
     h1 {
         display: flex;
@@ -166,15 +167,66 @@
           color: #2c3e50;
           font-family: 'Roboto', sans-serif;
       }
-  }
+  }*/
 
-@media only screen and (max-width: 400px) {
+  //smartphones
+@media only screen and (max-width: 425px) {
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 21px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        opacity: .95;
+        text-align: justify;
+  
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            color: #2c3e50;
+            margin-bottom: 1.3em;
+            font-size: 50px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+    }
 
+.aboutMe-paragraph {
+
+    h1 {
+        margin-bottom: 0.2em;
+    }
+
+    p {
+        margin-bottom: 1em;
+        line-height: 1.3em;
+    }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+.containerAbout {
+    border: 1px solid #EEE;
+    
+    ul {
+        list-style-type: none;
+        color: black;
+        line-height: 1.3em;
+        margin-bottom: 1em;
+        text-align: center;
+        padding-top: .6em;
+    }
+}
+
+}
+  
+@media only screen and (min-width: 426px) and (max-width: 960px) {
 }
 
 @media only screen and (min-width: 961px) {
-
+    
 }

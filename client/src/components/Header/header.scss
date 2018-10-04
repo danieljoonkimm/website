@@ -50,6 +50,7 @@
 .slider {
     overflow: hidden;
     max-width: 100%;
+    height: auto;
 
     .wrapper {
         font-size: 50px;
@@ -57,7 +58,7 @@
 
         .wrapper-child {
             position: relative;
-            top: -2.7em;
+            top: -2.1em;
             font-size: 185px;
             font-family: 'Stronger', sans-serif;
             color: #383131;
@@ -98,6 +99,7 @@
 
 @media only screen and (min-width: 426px) and (max-width: 960px) {
     .slider {
+        height: auto;
 
         .wrapper {
 
@@ -111,12 +113,13 @@
 
 @media only screen and (min-width: 961px) {
     .slider {
-
+        height: auto;
+        
         .wrapper {
 
             .wrapper-child {
                 margin-left: 17px;
-                top: -2.9em;
+                top: -1.8em;
                 font-size: 5em;
             }
         }
