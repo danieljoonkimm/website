@@ -168,38 +168,32 @@
           font-family: 'Roboto', sans-serif;
       }
   }*/
+  .aboutMe {
+    display: flex;
+    height: 100vh;
+    padding: 21px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    opacity: .95;
+    text-align: justify;
 
-  //smartphones
-@media only screen and (max-width: 425px) {
-    .aboutMe {
+    h1 {
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
         display: flex;
-        flex-direction: column;
-        height: 100vh;
-        padding: 21px;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        opacity: .95;
-        text-align: justify;
-  
-        h1 {
-            text-transform: uppercase;
-            font-family: 'Roboto', sans-serif;
-            font-size: 50px;
-            font-weight: 700;
-            display: flex;
-            justify-content: center;
-            text-transform: uppercase;
-            color: #2c3e50;
-            margin-bottom: 1.3em;
-            font-size: 50px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-        }
+        justify-content: center;
+        text-transform: uppercase;
+        color: #2c3e50;
+        margin-bottom: 1.3em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
     }
+}
 
 .aboutMe-paragraph {
     display: flex;
-    flex-direction: column;
 
     h1 {
         margin-bottom: 0.2em;
@@ -224,48 +218,112 @@
         padding-top: .6em;
     }
 }
+  
 
-.polaroid-parent {
-    display: flex;
-    flex-direction: column;
 
-    .polaroid {
-        
-        p {
-            text-align: center;
-            margin-bottom: .7em;
-            margin-top: 1.2em;
+@media only screen and (max-width: 425px) {
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .aboutMe-paragraph {
+        flex-direction: column;
+    }
+
+    .polaroid-parent {
+        display: flex;
+        flex-direction: column;
+
+        .polaroid {
+            
+            p {
+                text-align: center;
+                margin-bottom: .7em;
+                margin-top: 1.2em;
+            }
+        }
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        display: flex;
+
+        h1 {
+            justify-content: center;
+            font-size: 2em;
+            margin-top: .8em;
+            margin-bottom: .3em;
+        }
+    }
+
+    .about-me-description {
+
+        ol {
+            line-height: 1.7em;
         }
     }
 }
-
-.about-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.about-me {
-    display: flex;
-
-    h1 {
-        justify-content: center;
-        font-size: 2em;
-        margin-top: .8em;
-        margin-bottom: .3em;
-    }
-}
-
-.about-me-description {
-
-    ol {
-        line-height: 1.7em;
-    }
-}
-
-}
-
 //tablets
-@media only screen and (min-width: 426px) and (max-width: 960px) {
+@media only screen and (min-width: 426px) and (max-width: 960px) {  
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .about-container {
+        display: flex;
+    }
+
+    .containerForPicDescription {
+        display: flex;
+
+        .aboutMe-paragraph {
+            flex-direction: column;
+
+            p {
+                margin-top: 2.2em;
+            }
+        }
+    }
+
+    .containerAbout {
+        display: flex;
+        flex-direction: row;
+    }
+    .polaroid-parent {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    .polaroid {
+        position: relative;
+        width: 220px;
+      }
+       
+      .polaroid img {
+        border: 10px solid #fff;
+        border-bottom: 45px solid #fff;
+        -webkit-box-shadow: 3px 3px 3px #777;
+        -moz-box-shadow: 3px 3px 3px #777;
+        box-shadow: 3px 3px 3px #777;
+        height: 400px;
+        margin-top: 5px;
+      }
+       
+      .polaroid p {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 0px;
+        font-family: Courier New;
+        text-transform: uppercase;
+        color: #888;
+        padding-bottom: 15px;
+        margin-left: 72px;
+      }
 }
 
 @media only screen and (min-width: 961px) {

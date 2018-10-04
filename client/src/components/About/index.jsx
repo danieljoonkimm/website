@@ -26,6 +26,7 @@ class About extends Component {
 
                     <div className='containerForPicDescription'>
 
+                    <div className='about-container'>
                         <div className='aboutMe-paragraph'>
                             <h1>Who I Am</h1>
                                 <p>I'm a software engineer from Los Angeles.
@@ -41,7 +42,6 @@ class About extends Component {
                                    and optimizing front-end experiences through server-side 
                                    rendering and third party libraries like Redis, and React-router. </p>
                         </div>
-
                         <div className='containerAbout'>
                             <div className='aboutPicture'>
                                 <img src={aboutMePicture}/>
@@ -53,6 +53,7 @@ class About extends Component {
                                 <li>Email: danieljoonkimm@gmail.com</li>
                             </ul>
                         </div>
+                    </div>
 
                 
                 </div>
