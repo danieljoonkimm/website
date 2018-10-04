@@ -282,6 +282,7 @@
 
         .aboutMe-paragraph {
             flex-direction: column;
+            flex: 1;
 
             p {
                 margin-top: 2.2em;
@@ -291,7 +292,8 @@
 
     .containerAbout {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        flex: 1;
     }
     .polaroid-parent {
         display: grid;
