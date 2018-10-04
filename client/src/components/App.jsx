@@ -18,9 +18,9 @@ class App extends Component {
         return(
             <div>
                 <Header/>
-                <Navigation/>
-                <About/>
-                <Skills/>
+                {/* <Navigation/> */}
+                {/* <About/> */}
+                {/* <Skills/> */}
             </div>
         )
     }
