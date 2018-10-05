@@ -83,6 +83,7 @@
     filter: blur(2px);
 }
 
+//phones
 @media only screen and (max-width: 425px) {
     .slider {
 
@@ -98,6 +99,7 @@
     }
 }
 
+//tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
     .slider {
         height: auto;

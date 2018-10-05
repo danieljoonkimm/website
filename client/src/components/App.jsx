@@ -18,9 +18,9 @@ class App extends Component {
     render() {
         return(
             <div>
-                {/* <Header/> */}
-                {/* <Navigation/> */}
-                {/* <About/> */}
+                <Header/>
+                <Navigation/>
+                <About/>
                 <Skills/>
                 <Portfolio/>
             </div>

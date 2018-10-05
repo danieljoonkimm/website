@@ -14,5 +14,87 @@
         font-weight: bold;
         display: flex;
         justify-content: center;
+        margin-top: .1em;
+        margin: auto;
+        position: relative;
     }
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.project-hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    transition: all .5s ease;
+
+    a {
+        border: .5px solid white;
+        transition: margin-bottom .3s ease-in;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .portfolio-grid-item:hover .project-hover {
+        visibility: visible;
+        opacity: 1;
+        
+        height: 100%;
+        width: 100%;
+        
+        background: linear-gradient(
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0.8)
+          );
+          
+          a:hover {
+            background: white;
+            color: black;
+          }
+          
+          .current {
+            margin: 5px;
+          }
+          
+          transition: margin-bottom .3s ease-in;
+        }
+      
+}
+
+//phones
+@media only screen and (max-width: 425px) {
+    .portfolio-grid {
+        flex-direction: column;
+
+        .portfolio-grid-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            img {
+                display: flex;
+                align-self: center;
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+//tablets
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+
+}
+
+//desktops
+@media only screen and (min-width: 961px) {
+    
 }

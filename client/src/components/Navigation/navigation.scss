@@ -72,13 +72,14 @@
     background: #ad2525;
 }
 
-@media only screen and (max-width: 400px) {
+//phones
+@media only screen and (max-width: 425px) {
     .container {
         padding: .8em;
     }
     
     .container a {
-        font-size: .9em;
+        font-size: 1.2em;
     }
     
     .container {
@@ -89,7 +90,8 @@
     }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+//tablets
+@media only screen and (min-width: 426px) and (max-width: 960px) {
 
 }
 
