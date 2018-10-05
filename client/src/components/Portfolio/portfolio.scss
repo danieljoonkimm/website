@@ -1,0 +1,18 @@
+@import '../../../global/global.scss';
+
+.portfolio {
+    h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: .07em;
+        line-height: 1em;
+        padding-bottom: 22.5px;
+        padding-top: 12px;
+        color: #2c3e50;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+}

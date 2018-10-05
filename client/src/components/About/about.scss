@@ -186,7 +186,6 @@
         justify-content: center;
         text-transform: uppercase;
         color: #2c3e50;
-        margin-bottom: 1.3em;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
     }
@@ -224,6 +223,11 @@
 @media only screen and (max-width: 425px) {
     .aboutMe {
         flex-direction: column;
+        height: auto;
+
+        h1 {
+            margin-bottom: .4em;
+        }
     }
 
     .aboutMe-paragraph {
