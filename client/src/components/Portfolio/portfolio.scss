@@ -91,7 +91,9 @@
 
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
-
+    .portfolio-grid {
+        flex-direction: column;
+    }
 }
 
 //desktops

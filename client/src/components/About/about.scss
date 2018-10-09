@@ -176,6 +176,7 @@
     font-weight: bold;
     opacity: .95;
     text-align: justify;
+    height: auto;
 
     h1 {
         text-transform: uppercase;
@@ -275,10 +276,12 @@
 @media only screen and (min-width: 426px) and (max-width: 960px) {  
     .aboutMe {
         flex-direction: column;
-    }
+        height: auto;
 
-    .about-container {
-        display: flex;
+        h1 {
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
     }
 
     .containerForPicDescription {
@@ -286,10 +289,10 @@
 
         .aboutMe-paragraph {
             flex-direction: column;
-            flex: 1;
+            height: auto;
 
             p {
-                margin-top: 2.2em;
+                margin-top: 0;
             }
         }
     }
@@ -300,13 +303,14 @@
         flex: 1;
     }
     .polaroid-parent {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     .polaroid {
         position: relative;
-        width: 220px;
+        margin: 1%;
       }
        
       .polaroid img {
@@ -315,7 +319,6 @@
         -webkit-box-shadow: 3px 3px 3px #777;
         -moz-box-shadow: 3px 3px 3px #777;
         box-shadow: 3px 3px 3px #777;
-        height: 400px;
         margin-top: 5px;
       }
        
@@ -328,8 +331,11 @@
         text-transform: uppercase;
         color: #888;
         padding-bottom: 15px;
-        margin-left: 72px;
       }
+    
+    .about-me-description {
+        line-height: 2em;
+    }
 }
 
 @media only screen and (min-width: 961px) {

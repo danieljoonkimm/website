@@ -55,6 +55,9 @@
     .wrapper {
         font-size: 50px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
         .wrapper-child {
             position: relative;
@@ -62,6 +65,9 @@
             font-size: 185px;
             font-family: 'Stronger', sans-serif;
             color: #383131;
+            display: flex;
+            justify-content: center;
+            text-align: center;
         }
     }
 }
@@ -105,6 +111,7 @@
         height: auto;
 
         .wrapper {
+            height: 0;
 
             .wrapper-child {
                 margin-left: 17px;
@@ -116,13 +123,13 @@
 
 @media only screen and (min-width: 961px) {
     .slider {
-        height: auto;
+        height: 100vh;
         
         .wrapper {
 
             .wrapper-child {
                 margin-left: 17px;
-                top: -1.8em;
+                top: -2.3em;
                 font-size: 5em;
             }
         }
