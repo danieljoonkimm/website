@@ -23,23 +23,34 @@ class Portfolio extends Component {
                 <div className='portfolio-grid'>
                     <div className='portfolio-grid-item fakebook'>
                         <img src={fakebook} alt=''/>
-                        <div className='project-hover'></div>
-                        <a href="https://github.com/Greenfield-DDCH" target="_blank">View Code</a>
+                            <div className='project-hover'>
+                                <h4>Fakebook</h4>
+                         <a href="https://github.com/Greenfield-DDCH" target="_blank">View Code</a>
+                            </div>
                     </div>
 
                     <div className='portfolio-grid-item foodie'>
                         <img src={foodie} alt=''/>
+                            <div className='project-hover'>
+                                <h4>Foodie</h4>
                         <a href="https://github.com/mdhiFoodie" target="_blank">View Code</a>
+                            </div>
                     </div>
 
                     <div className='portfolio-grid-item slackclone'>
                         <img src={slackclone} alt=''/>
+                            <div className='project-hover'>
+                                <h4>Slack Clone</h4>
                         <a href="https://github.com/danieljoonkimm/Technical_Growth_Assessment" target="_blank">View Code</a>
+                            </div>
                     </div>
 
                     <div className='portfolio-grid-item website'>
                         <img src={website} alt=''/>
+                            <div className='project-hover'>
+                                <h4>Website</h4>
                         <a href="http://www.danieljoonkimm.com" target="_blank">Website</a>
+                            </div>
                     </div>
                 </div>
             </div>
