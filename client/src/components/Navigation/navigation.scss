@@ -81,12 +81,17 @@
     
     .container a {
         font-size: 1.2em;
+        padding: 3px;
     }
     
     .container {
         ul {
             display: flex;
             flex-wrap: wrap;
+
+            li {
+                padding: 3px;
+            }
         }
     }
 }
