@@ -64,6 +64,10 @@
 
     .aboutMe-paragraph {
         flex-direction: column;
+
+        p {
+            font-size: .9em;
+        }
     }
 
     .polaroid-parent {
@@ -117,6 +121,7 @@
 
         ol {
             line-height: 1.7em;
+            font-size: .9em;
         }
     }
 }
