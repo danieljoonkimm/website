@@ -17,10 +17,10 @@ class Navigation extends Component {
             <div className='container child topBotomBordersOut'>
                 <ul>
                     <li className='active'><a href='#'>Home</a></li>
-                    <li><a href='#'>About Me</a></li>
-                    <li><a href='#'>Skills</a></li>
-                    <li><a href='#'>Portfolio</a></li>
-                    <li><a href='#'>Contact Me</a></li>
+                    <li><a href='#about'>About Me</a></li>
+                    <li><a href='#skills'>Skills</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact Me</a></li>
                 </ul>
             </div>
         )

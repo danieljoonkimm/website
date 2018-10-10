@@ -18,7 +18,7 @@ class Header extends Component {
 
     render() {
         return(
-            <div className='slider'>
+            <div id='header' className='slider'>
                 <figure>
                     <img src={background1}/>
                     <img src={background2}/>
