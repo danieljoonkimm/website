@@ -310,6 +310,8 @@
 
             p {
                 margin-top: 0;
+                line-height: 2.1em;
+                font-size: .8em;
             }
         }
     }
@@ -352,6 +354,7 @@
     
     .about-me-description {
         line-height: 2em;
+        font-size: .8em;
     }
 }
 
@@ -382,8 +385,12 @@
         
         .aboutMe-paragraph {
             flex-direction: column;
-            font-size: 1.2em;
+            font-size: .9em;
             flex: 3;
+
+            p {
+                line-height: 2.8em;
+            }
         }
     }
 
@@ -432,5 +439,6 @@
 
     .about-me-description {
         line-height: 2.3em;
+        font-size: .9em;
     }
 }
