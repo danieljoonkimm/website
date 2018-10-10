@@ -83,8 +83,10 @@ class Skills extends Component {
 
                 </div>
                 
-                <div className='more-skills-columns'>
-                    <h1>More Skills</h1>
+                <div className='moreSkills-columns'>
+                    <div className='more-skills-header'>
+                        <h1>More Skills</h1>
+                    </div>
 
                     <div className='col-md-6'>
 
