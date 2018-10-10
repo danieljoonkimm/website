@@ -83,8 +83,10 @@ class Skills extends Component {
 
                 </div>
                 
-                <div className='col-md-12'>
+                <div className='more-skills-columns'>
                     <h1>More Skills</h1>
+
+                    <div className='col-md-6'>
 
                     <div>
                         <div className='skill-title'>
@@ -103,6 +105,7 @@ class Skills extends Component {
                             <Progress type='circle' percent={88}/>
                         </div>
                     </div>
+                   
 
                     <div>
                         <div className='skill-title'>
@@ -112,7 +115,9 @@ class Skills extends Component {
                             <Progress type='circle' percent={88}/>
                         </div>
                     </div>
+                    </div>
 
+                    <div className='col-md-6'>
                     <div>
                         <div className='skill-title'>
                             <h3>PHP</h3>
@@ -138,6 +143,7 @@ class Skills extends Component {
                         <div className='progress-circle'>
                             <Progress type='circle' percent={88}/>
                         </div>
+                    </div>
                     </div>
 
                 </div>
