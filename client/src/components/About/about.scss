@@ -322,14 +322,15 @@
         flex: 1;
     }
     .polaroid-parent {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
         justify-content: center;
     }
     
     .polaroid {
         position: relative;
         margin: 1%;
+        padding: 2%;
       }
        
       .polaroid img {
