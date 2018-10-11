@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './navigation.scss';
+import 'smoothscroll';
 
 class Navigation extends Component {
     constructor() {
