@@ -17,8 +17,8 @@ class Portfolio extends Component {
 
     render () {
         return(
-            <div id='portfolio' className='portfolio'>
-                <h1>-Portfolio-</h1>
+            <div id='portfolio' className='portfolio' data-aos="fade-up">
+                <h1 data-aos="fade-up">-Portfolio-</h1>
 
                 <div className='portfolio-grid'>
                     <div className='portfolio-grid-item fakebook'>

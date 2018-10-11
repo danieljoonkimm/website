@@ -22,15 +22,15 @@ class About extends Component {
             <div>
                 <div id='about' className='aboutMe'>
                     <div className='aboutMe-header'>
-                        <h1>-About Me-</h1>
+                        <h1 data-aos="fade-up">-About Me-</h1>
                     </div>
 
                     <div className='containerForPicDescription'>
 
                     <div className='about-container'>
-                        <div className='aboutMe-paragraph'>
-                            <h1>Who I Am</h1>
-                                <p>I'm a software engineer from Los Angeles.
+                        <div className='aboutMe-paragraph' data-aos="fade-up">
+                            <h1 data-aos="fade-up">Who I Am</h1>
+                                <p data-aos="fade-up">I'm a software engineer from Los Angeles.
                                     I want to build a product that I'm passionate about - build a company around that product and grow
                                     personally and professionally regardless of financial gains.
                                     I've learned from past careers that money does not equal happiness.
@@ -38,8 +38,8 @@ class About extends Component {
                                     Life has a great way of intervening in the way of well laid plans,
                                     and the best plan is knowing that your plan could be broken; I
                                     took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
-                            <h1>What I Do</h1>
-                                <p>Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications 
+                            <h1 data-aos="fade-up">What I Do</h1>
+                                <p data-aos="fade-up">Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications 
                                    and optimizing front-end experiences through server-side 
                                    rendering and third party libraries like Redis, and React-router. </p>
                         </div>
@@ -62,7 +62,7 @@ class About extends Component {
                 
 
                 <div>
-                    <div className='polaroid-parent'>
+                    <div className='polaroid-parent' data-aos="fade-up">
                         <div className="polaroid">
                             <p>My Birthday Picture</p>
                             <img src={picture1} />
@@ -91,12 +91,12 @@ class About extends Component {
                         
                         <div className='about-content'>
                             <div className='about-me'>
-                                <h1>-Why I Love Coding-</h1>
+                                <h1 data-aos="fade-up">-Why I Love Coding-</h1>
                             </div>
                         
 
                             <div className='about-me-description'>
-                                <ol>
+                                <ol data-aos="fade-up">
                                     <li>
                                         <em>Perseverance and optimism: </em> 
                                         Programmers have to be okay with constantly failing - your code is oftentimes not going to work on your first try. 

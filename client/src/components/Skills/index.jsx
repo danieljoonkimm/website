@@ -15,11 +15,11 @@ class Skills extends Component {
 
     render() {
         return(
-            <div id='skills' className='skills'>
+            <div id='skills' className='skills' data-aos="fade-up">
 
                 <div className='containerForSkills'>
                     <div className='headerSkills'>
-                        <h1>-Skills-</h1>
+                        <h1 data-aos="fade-up">-Skills-</h1>
                     </div>
                     
                     <div className='col-md-6'>
