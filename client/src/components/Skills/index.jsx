@@ -23,7 +23,7 @@ class Skills extends Component {
                     </div>
                     
                     <div className='col-md-6'>
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Javscript</h3>
                             </div>
@@ -32,7 +32,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Javscript</h3>
                             </div>
@@ -41,7 +41,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>React/Redux</h3>
                             </div>
@@ -52,7 +52,7 @@ class Skills extends Component {
                     </div>
 
                     <div className='col-md-6'>
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>HTML5/CSS3</h3>
                             </div>
@@ -61,7 +61,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>SQL</h3>
                             </div>
@@ -70,7 +70,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='skill-progress'>
+                        <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Node</h3>
                             </div>
