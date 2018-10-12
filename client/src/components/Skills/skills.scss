@@ -60,6 +60,14 @@
     }
 }
 
+//tablets
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+    col-md-6 {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+
 @media only screen and (min-width: 961px) {
     .skills {
         padding-left: 9em;
