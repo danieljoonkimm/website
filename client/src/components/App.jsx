@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import BackgroundImage from '../components/BackgroundImage';
 import Portfolio from '../components/Portfolio';
 
 import AOS from 'aos';
@@ -49,6 +50,7 @@ class App extends Component {
                 <Header/>
                 <Navigation/>
                 <About/>
+                <BackgroundImage/>
                 <Skills/>
                 <Portfolio/>
             </div>
