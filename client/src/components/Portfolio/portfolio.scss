@@ -22,53 +22,6 @@
             position: relative;
         }
     }
-}
-
-//phones
-@media only screen and (max-width: 425px) {
-    .portfolio-grid {
-        flex-direction: column;
-
-        .portfolio-grid-item {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            
-            img {
-                display: flex;
-                align-self: center;
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
-}
-
-//tablets
-@media only screen and (min-width: 426px) and (max-width: 960px) {
-    .portfolio-grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding-left: 7em;
-        padding-right: 7em;
-
-        .portfolio-grid-item {
-            text-align: center;
-
-            img {
-                height: 15em;
-                width: auto;
-            }
-        }
-    }
-}
-
-//desktops
-@media only screen and (min-width: 961px) {
-    .portfolio {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-    }
 
     .view {
         margin: 10px;
@@ -190,4 +143,51 @@
             transform: scale(1);
             opacity: 1;
         }
+}
+
+//phones
+@media only screen and (max-width: 425px) {
+    .portfolio-grid {
+        flex-direction: column;
+
+        .portfolio-grid-item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            img {
+                display: flex;
+                align-self: center;
+                width: auto;
+                height: 200px;
+            }
+        }
+    }
+}
+
+//tablets
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 7em;
+        padding-right: 7em;
+
+        .portfolio-grid-item {
+            text-align: center;
+
+            img {
+                height: 15em;
+                width: auto;
+            }
+        }
+    }
+}
+
+//desktops
+@media only screen and (min-width: 961px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
 }

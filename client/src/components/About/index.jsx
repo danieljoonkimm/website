@@ -87,6 +87,7 @@ class About extends Component {
                             <p>Me and Girlfriend P2</p>
                             <img src={picture6} />
                         </div>
+                        </div>
                     </div>
                         
                         <div className='about-content'>
@@ -135,7 +136,7 @@ class About extends Component {
                             </div>
                     </div>
 
-                </div>
+                
             </div>
         </div>
         )
