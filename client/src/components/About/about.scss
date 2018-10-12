@@ -72,8 +72,9 @@
 
     .polaroid-parent {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
 
         .polaroid {
             position: relative;
@@ -87,6 +88,8 @@
             -moz-box-shadow: 3px 3px 3px #777;
             box-shadow: 3px 3px 3px #777;
             margin-top: 5px;
+            width: auto;
+            height: 250px;
         }
 
         .polaroid p {

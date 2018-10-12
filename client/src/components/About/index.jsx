@@ -63,27 +63,27 @@ class About extends Component {
 
                 <div>
                     <div className='polaroid-parent'>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>My Birthday Picture</p>
                             <img src={picture1} />
                         </div>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>Night Out With Friends</p>
                             <img src={picture2} />
                         </div>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>Best Friends</p>
                             <img src={picture3} />
                         </div>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>Me and Girlfriend</p>
                             <img src={picture4} />
                         </div>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>Celebrating Life</p>
                             <img src={picture5} />
                         </div>
-                        <div className="polaroid" data-aos="fade-up">
+                        <div className="polaroid">
                             <p>Me and Girlfriend P2</p>
                             <img src={picture6} />
                         </div>
