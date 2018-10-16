@@ -52,7 +52,7 @@ class App extends Component {
                 <About/>
                 <BackgroundImage/>
                 <Skills/>
-                {/* <Portfolio/> */}
+                <Portfolio/>
             </div>
         )
     }
