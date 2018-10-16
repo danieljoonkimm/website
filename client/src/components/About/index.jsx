@@ -8,6 +8,7 @@ import picture4 from '../../../public/4.jpg';
 import picture5 from '../../../public/5.jpg';
 import picture6 from '../../../public/6.jpg';
 import aboutMePicture from '../../../public/aboutMePicture.jpg';
+// import polaroidbackground from '../../../public/polaroidbackground.jpg';
 
 class About extends Component {
     constructor() {
@@ -29,19 +30,15 @@ class About extends Component {
 
                     <div className='about-container'>
                         <div className='aboutMe-paragraph' data-aos="fade-up">
-                            <h1 data-aos="fade-up">Who I Am</h1>
-                                <p data-aos="fade-up">I'm a software engineer from Los Angeles.
-                                    I want to build a product that I'm passionate about - build a company around that product and grow
-                                    personally and professionally regardless of financial gains.
-                                    I've learned from past careers that money does not equal happiness.
-                                    Some food for thought: passion and happiness is always more important than stability.
-                                    Life has a great way of intervening in the way of well laid plans,
-                                    and the best plan is knowing that your plan could be broken; I
-                                    took my chance when it was possible, and found what I truly wanted to do - I have found my passion and happiness</p>
+                            <h1 data-aos="fade-up">Objective</h1>
+                                <p data-aos="fade-up">Always seeking opportunities to work with a team of engineers focus of test-driven development, strong communication skills
+                                and writing clean code while having the passion and drive to stay on the cutting-edge of technology to create products in order to give back
+                                to the community. Currently expanding my languages in programming languages such as PHP and advanced React.JS. I'm focused on creating highly scalable React and Node
+                                full-stack applications with a strong interest in UI / UX design.</p>
                             <h1 data-aos="fade-up">What I Do</h1>
                                 <p data-aos="fade-up">Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications 
                                    and optimizing front-end experiences through server-side 
-                                   rendering and third party libraries like Redis, and React-router. </p>
+                                   rendering and third party libraries like Redis, and React-router. I'm experienced with both noSQL and SQL databases.</p>
                         </div>
                         <div className='containerAbout'>
                             <div className='aboutPicture'>
@@ -59,10 +56,9 @@ class About extends Component {
                 
                 </div>
 
-                
-
                 <div>
                     <div className='polaroid-parent'>
+                        {/* <img src={polaroidbackground} alt=''/> */}
                         <div className="polaroid">
                             <p>My Birthday Picture</p>
                             <img src={picture1} />
