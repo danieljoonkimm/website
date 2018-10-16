@@ -22,7 +22,7 @@ class Skills extends Component {
                         <h1>-Skills-</h1>
                     </div>
                     
-                    <div className='col-md-6'>
+                    <div className='col-sm-6'>
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Javscript</h3>
@@ -51,7 +51,7 @@ class Skills extends Component {
                         </div>
                     </div>
 
-                    <div className='col-md-6'>
+                    <div className='col-sm-6'>
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>HTML5/CSS3</h3>
@@ -88,9 +88,9 @@ class Skills extends Component {
                         <h1>More Skills</h1>
                     </div>
 
-                    <div className='col-md-6'>
+                    <div className='row'>
 
-                    <div>
+                    <div className='col-sm-4'>
                         <div className='skill-title'>
                             <h3>MySQL</h3>
                         </div>
@@ -99,7 +99,7 @@ class Skills extends Component {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='col-sm-4'>
                         <div className='skill-title'>
                             <h3>Socket.iO</h3>
                         </div>
@@ -109,7 +109,7 @@ class Skills extends Component {
                     </div>
                    
 
-                    <div>
+                    <div className='col-sm-4'>
                         <div className='skill-title'>
                             <h3>PostgreSQL</h3>
                         </div>
@@ -119,33 +119,33 @@ class Skills extends Component {
                     </div>
                     </div>
 
-                    <div className='col-md-6'>
-                    <div>
-                        <div className='skill-title'>
-                            <h3>PHP</h3>
+                    <div className='row'>
+                        <div className='col-sm-4'>
+                            <div className='skill-title'>
+                                <h3>PHP</h3>
+                            </div>
+                            <div className='progress-circle'>
+                                <Progress type='circle' percent={88}/>
+                            </div>
                         </div>
-                        <div className='progress-circle'>
-                            <Progress type='circle' percent={88}/>
-                        </div>
-                    </div>
 
-                    <div>
-                        <div className='skill-title'>
-                            <h3>Webpack</h3>
+                        <div className='col-sm-4'>
+                            <div className='skill-title'>
+                                <h3>Webpack</h3>
+                            </div>
+                            <div className='progress-circle'>
+                                <Progress type='circle' percent={88}/>
+                            </div>
                         </div>
-                        <div className='progress-circle'>
-                            <Progress type='circle' percent={88}/>
-                        </div>
-                    </div>
 
-                    <div>
-                        <div className='skill-title'>
-                            <h3>SASS</h3>
+                        <div className='col-sm-4'>
+                            <div className='skill-title'>
+                                <h3>SASS</h3>
+                            </div>
+                            <div className='progress-circle'>
+                                <Progress type='circle' percent={88}/>
+                            </div>
                         </div>
-                        <div className='progress-circle'>
-                            <Progress type='circle' percent={88}/>
-                        </div>
-                    </div>
                     </div>
 
                 </div>

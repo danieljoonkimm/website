@@ -60,6 +60,10 @@
     }
 }
 
+.row {
+    margin: 0;
+}
+
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
     col-md-6 {
@@ -73,5 +77,11 @@
     .skills {
         padding-left: 7em;
         padding-right: 7em;
+    }
+
+    .moreSkills-columns {
+        h1 {
+            font-size: 1em;
+        }
     }
 }
