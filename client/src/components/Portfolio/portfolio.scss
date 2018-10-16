@@ -191,6 +191,11 @@
 
 //desktops
 @media only screen and (min-width: 961px) {
+    .portfolio-container {
+        padding-left: 3em;
+        padding-right: 3em;
+        
+    }
     .portfolio {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
