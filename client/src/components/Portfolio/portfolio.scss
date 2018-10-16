@@ -1,6 +1,6 @@
 @import '../../../global/global.scss';
 
-.portfolio {
+.portfolio-container {
     background-color: #f7f7f7;
     
     .portfolio-header {
@@ -163,21 +163,26 @@
             }
         }
     }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
-    .portfolio-grid {
+    .portfolio {
         display: grid;
-        grid-template-columns: 50% 50%;
-        padding-left: 7em;
-        padding-right: 7em;
+        grid-template-columns: 25% 25% 25% 25%;
 
-        .portfolio-grid-item {
+        .view {
             text-align: center;
+            width: 11em;
 
             img {
-                height: 15em;
+                height: 10em;
                 width: auto;
             }
         }
@@ -189,5 +194,9 @@
     .portfolio {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .view {
+        justify-self: center;
     }
 }
