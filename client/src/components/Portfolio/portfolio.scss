@@ -176,6 +176,7 @@
     .portfolio {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
+        padding-bottom: 1em;
 
         .view {
             text-align: center;
@@ -194,6 +195,7 @@
     .portfolio-container {
         padding-left: 3em;
         padding-right: 3em;
+        padding-bottom: 2em;
         
     }
     .portfolio {
