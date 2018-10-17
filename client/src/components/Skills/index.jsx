@@ -83,7 +83,7 @@ class Skills extends Component {
                         <h1>MORE SKILLS</h1>
                     </div>
                     <div className='row'>
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>MySQL</h3>
                             </div>
@@ -92,7 +92,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>Socket.iO</h3>
                             </div>
@@ -101,7 +101,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>PostgreSQL</h3>
                             </div>
@@ -110,7 +110,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>PHP</h3>
                             </div>
@@ -119,7 +119,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>Webpack</h3>
                             </div>
@@ -128,7 +128,7 @@ class Skills extends Component {
                             </div>
                         </div>
 
-                        <div className='col-md-2 col-sm-4 col-xs-4'>
+                        <div className='col-md-2 col-sm-4 col-xs-12'>
                             <div className='skill-title'>
                                 <h3>SASS</h3>
                             </div>
