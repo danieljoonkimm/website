@@ -8,6 +8,8 @@ import picture4 from '../../../public/4.jpg';
 import picture5 from '../../../public/5.jpg';
 import picture6 from '../../../public/6.jpg';
 import aboutMePicture from '../../../public/aboutMePicture.jpg';
+import icecream from '../../../public/icecream.jpg';
+import graduationpic2 from '../../../public/graduation2.jpg';
 // import polaroidbackground from '../../../public/polaroidbackground.jpg';
 
 class About extends Component {
@@ -60,28 +62,36 @@ class About extends Component {
                     <div className='polaroid-parent'>
                         {/* <img src={polaroidbackground} alt=''/> */}
                         <div className="polaroid">
-                            <p>My Birthday Picture</p>
+                            <p>Birthday Picture</p>
                             <img src={picture1} />
                         </div>
                         <div className="polaroid">
-                            <p>Night Out With Friends</p>
+                            <p>Best Friends</p>
                             <img src={picture2} />
                         </div>
                         <div className="polaroid">
-                            <p>Best Friends</p>
+                            <p>Dinner</p>
                             <img src={picture3} />
                         </div>
                         <div className="polaroid">
-                            <p>Me and Girlfriend</p>
+                            <p>Snowboarding</p>
                             <img src={picture4} />
                         </div>
                         <div className="polaroid">
-                            <p>Celebrating Life</p>
+                            <p>Birthday Surprise</p>
                             <img src={picture5} />
                         </div>
                         <div className="polaroid">
-                            <p>Me and Girlfriend P2</p>
+                            <p>My Girlfriend</p>
                             <img src={picture6} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Ice Cream Lover</p>
+                            <img src={icecream} />
+                        </div>
+                        <div className="polaroid">
+                            <p>Family</p>
+                            <img src={graduationpic2} />
                         </div>
                         </div>
                     </div>
