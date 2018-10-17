@@ -52,6 +52,7 @@ class App extends Component {
                 <About/>
                 <BackgroundImage/>
                 <Skills/>
+                <BackgroundImage/>
                 <Portfolio/>
             </div>
         )

@@ -23,7 +23,7 @@ class About extends Component {
             <div>
                 <div id='about' className='aboutMe'>
                     <div className='aboutMe-header'>
-                        <h1 data-aos="fade-up">-About Me-</h1>
+                        <h1 data-aos="fade-up">About Me</h1>
                     </div>
 
                     <div className='containerForPicDescription'>
@@ -88,7 +88,7 @@ class About extends Component {
                         
                         <div className='about-content'>
                             <div className='about-me'>
-                                <h1 data-aos="fade-up">-Why I Love Coding-</h1>
+                                <h1 data-aos="fade-up">Why I Love Coding</h1>
                             </div>
                         
 

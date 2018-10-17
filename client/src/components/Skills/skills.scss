@@ -71,11 +71,28 @@
     }
 }
 
+//phones
+@media only screen and (max-width: 425px) {
+   
+}
+
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
-    col-md-6 {
+    col-sm-2 {
         padding-right: 1em;
         padding-left: 1em;
+    }
+
+    .moreSkills-columns {
+        h1 {
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6em;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            color: #2c3e50;
+        }
     }
 }
 
@@ -88,7 +105,13 @@
 
     .moreSkills-columns {
         h1 {
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
             font-size: 1.6em;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            color: #2c3e50;
         }
     }
 }

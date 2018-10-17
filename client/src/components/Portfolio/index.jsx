@@ -18,7 +18,7 @@ class Portfolio extends Component {
     render () {
         return(
             <div className='portfolio-container'>
-             <div className='portfolio-header'><h1>-Portfolio-</h1></div>
+             <div className='portfolio-header'><h1>Portfolio</h1></div>
                 <div className='portfolio'>
                 <div className="view view-tenth">
                     <img src={fakebook} />
