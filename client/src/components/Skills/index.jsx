@@ -26,27 +26,21 @@ class Skills extends Component {
                             <div className='skill-title'>
                                 <h3>Javscript</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
 
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Javscript</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
 
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>React/Redux</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
                     </div>
 
@@ -55,25 +49,19 @@ class Skills extends Component {
                             <div className='skill-title'>
                                 <h3>HTML5/CSS3</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>SQL</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
                         <div className='skill-progress' data-aos="fade-up">
                             <div className='skill-title'>
                                 <h3>Node</h3>
                             </div>
-                            <div className='progress'>
-                                <Progress percent={88}/>
-                            </div>
+                                <Progress percent={88} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}}/>
                         </div>
                     </div>
                 </div>
@@ -88,7 +76,7 @@ class Skills extends Component {
                                 <h3>MySQL</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
 
@@ -97,7 +85,7 @@ class Skills extends Component {
                                 <h3>Socket.iO</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
 
@@ -106,7 +94,7 @@ class Skills extends Component {
                                 <h3>PostgreSQL</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
 
@@ -115,7 +103,7 @@ class Skills extends Component {
                                 <h3>PHP</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
 
@@ -124,7 +112,7 @@ class Skills extends Component {
                                 <h3>Webpack</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
 
@@ -133,7 +121,7 @@ class Skills extends Component {
                                 <h3>SASS</h3>
                             </div>
                             <div className='progress-circle'>
-                                <Progress type='circle' percent={88}/>
+                                <Progress type='circle' percent={100} theme={{ active: {trailColor: '#535B63', color: '#e44f59'}}} status='success'/>
                             </div>
                         </div>
                     </div>

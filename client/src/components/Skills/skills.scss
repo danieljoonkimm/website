@@ -6,6 +6,8 @@
     background-color: #eaeaea;
     font-weight: bold;
     font-size: 19px;
+    background-color: #1a1e23;
+    color: #fff;
 }
 
 .skill-title {
@@ -30,12 +32,12 @@
         line-height: 1em;
         padding-bottom: 22.5px;
         padding-top: 12px;
-        color: #2c3e50;
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         display: flex;
         justify-content: center;
+        color: #fff;
     }
 }
 
@@ -55,8 +57,13 @@
     height: 8em;
     text-align: center;
 
+    .react-sweet-progress-symbol {
+        color: white;
+        font-weight: bold;
+    }
+
     .react-sweet-progress-symbol-absolute {
-        padding-left: 1.5em;
+        padding-left: 1.8em;
     }
 }
 
@@ -70,6 +77,16 @@
         text-align: center;
     }
 }
+
+.react-sweet-progress {
+    
+    div {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
 
 //phones
 @media only screen and (max-width: 425px) {
@@ -91,7 +108,6 @@
             font-weight: 700;
             display: flex;
             justify-content: center;
-            color: #2c3e50;
         }
     }
 }
@@ -111,7 +127,6 @@
             font-weight: 700;
             display: flex;
             justify-content: center;
-            color: #2c3e50;
         }
     }
 }

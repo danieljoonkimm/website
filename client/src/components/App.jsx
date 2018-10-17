@@ -50,9 +50,9 @@ class App extends Component {
                 <Header/>
                 <Navigation/>
                 <About/>
-                <BackgroundImage/>
+                {/* <BackgroundImage/> */}
                 <Skills/>
-                <BackgroundImage/>
+                {/* <BackgroundImage/> */}
                 <Portfolio/>
             </div>
         )
