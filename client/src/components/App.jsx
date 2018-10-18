@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Navigation from '../components/Navigation';
 import About from '../components/About';
 import Skills from '../components/Skills';
-import BackgroundImage from '../components/BackgroundImage';
+import Contact from '../components/Contact';
 import Portfolio from '../components/Portfolio';
 
 import AOS from 'aos';
@@ -53,7 +53,7 @@ class App extends Component {
                 {/* <BackgroundImage/> */}
                 <Skills/>
                 <Portfolio/>
-                <BackgroundImage/>
+                <Contact/>
             </div>
         )
     }
