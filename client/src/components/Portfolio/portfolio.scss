@@ -170,20 +170,32 @@
         align-items: center;
     }
 }
+@media only screen and (min-width: 425px) and (max-width: 670px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .view {
+        align-self: center;
+    }
+}
 //tablets
-@media only screen and (min-width: 426px) and (max-width: 960px) {
+@media only screen and (min-width: 670px) and (max-width: 960px) {
     .portfolio {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         padding-bottom: 1em;
+        justify-items: center;
 
         .view {
             text-align: center;
-            width: 11em;
+            width: 10em;
+            justify-items: center;
 
             img {
-                height: 10em;
+                height: 9em;
                 width: auto;
             }
         }
@@ -205,5 +217,6 @@
 
     .view {
         justify-self: center;
+        justify-items: center;
     }
 }

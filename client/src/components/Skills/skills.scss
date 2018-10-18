@@ -75,11 +75,12 @@
     h1 {
         font-size: 1.6em;
         text-align: center;
+        padding-top: .4em;
     }
 }
 
 .react-sweet-progress {
-    
+
     div {
         color: white;
         font-weight: bold;
@@ -110,6 +111,12 @@
             justify-content: center;
         }
     }
+
+    .more-skills-header {
+        h1 {
+            padding-top: .7em;
+        }
+    }
 }
 
 //desktop
@@ -127,6 +134,12 @@
             font-weight: 700;
             display: flex;
             justify-content: center;
+        }
+    }
+
+    .more-skills-header {
+        h1 {
+            padding-top: 1em;
         }
     }
 }
