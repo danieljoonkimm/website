@@ -16,25 +16,33 @@ class BackgroundImage extends Component {
     render () {
         return <div className='contact-container'>
                     <div className='background-headers'>
-                        <div className='contact-smaller-header'><h3>Feel free to email me!</h3></div>
-                        <div className='contact-header'><h1>GET IN CONTACT</h1></div>
+                        <div className='contact-smaller-header' data-aos="fade-up"><h3>Feel free to email me!</h3></div>
+                        <div className='contact-header' data-aos="fade-up"><h1>GET IN CONTACT</h1></div>
                     </div>
 
                     <div className='information'>
-                        <div className='contact-info'>
+                        <div className='contact-info' data-aos="fade-up">
                             <Icon size={40} icon={phone} className='icon'/>
                             <div className='phoneNumber'>(323) 603-7431</div>
                         </div>
 
-                        <div className='contact-info'>
+                        <div className='contact-info' data-aos="fade-up">
                             <Icon size={40} icon={ic_mail_outline} className='icon'/>
                             <div className='email'>danieljoonkimm@gmail.com</div>
                         </div>
 
-                        <div className='contact-info'>
+                        <div className='contact-info' data-aos="fade-up">
                             <Icon size={40} icon={location} className='icon'/>
                             <div className='from'>Los Angeles, CA</div>
                         </div>
+                    </div>
+
+                    <div className='footer'>
+                        <div><h1>hello</h1></div>
+                        <div><h1>hello</h1></div>
+                        <div><h1>hello</h1></div>
+                        <div><h1>hello</h1></div>
+                        
                     </div>
                </div>
     }
