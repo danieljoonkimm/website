@@ -36,30 +36,36 @@
         }
     }
 
-    .contact-info {
+    .information {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        margin-bottom: 1em;
-        line-height: 1.5em;
 
-        .phoneNumber {
-            display: flex;
-            justify-content: center;
-        }
-
-        .email {
-            display: flex;
-            justify-content: center;
-        }
-
-        .from {
-            display: flex;
-            justify-content: center;
+        .contact-info {
+            display: inline;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            margin-bottom: 1em;
+            line-height: 1.5em;
+            text-align: center;
+    
+            .icon {
+                text-align: center;
+            }
+    
+            .phoneNumber {
+                text-align: center;
+            }
+    
+            .email {
+                text-align: center;
+            }
+    
+            .from {
+                text-align: center;
+            }
         }
     }
+
 
 //mobile
 @media only screen and (max-width: 425px) {
