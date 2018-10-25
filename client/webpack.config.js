@@ -19,6 +19,7 @@ const optimizeStyles = new OptimizeCssAssetsPlugin({
 const envVariables = new webpack.DefinePlugin({
   'process.env': {
     'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'REACT_APP_API_KEY': JSON.stringify(process.env.REACT_APP_API_KEY),
   }
 });
 
@@ -37,7 +38,7 @@ module.exports = {
         exclude: /node_modules/,
         loaders: 'babel-loader',
         options: {
-          presets: [ 'env', 'react' ]
+          presets: [ 'env', 'react', 'stage-0' ]
         }
       },
       {

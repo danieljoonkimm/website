@@ -10,9 +10,19 @@ import { ic_mail_outline } from 'react-icons-kit/md/ic_mail_outline';
 import { facebookSquare } from 'react-icons-kit/fa/facebookSquare';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 
+import GoogleMapReact from 'google-map-react';
+const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+class Contact extends Component {
+    constructor() {
+        super();
 
-class BackgroundImage extends Component {
+        this.state = {
+            center: { lat: 34.052235, lng: -118.243683 },
+            zoom: 11
+        }
+    }
     render () {
         return <div className='contact-container'>
                     <div className='background-headers'>
@@ -38,14 +48,25 @@ class BackgroundImage extends Component {
                     </div>
 
                     <div className='footer'>
-                        <div><h1>hello</h1></div>
-                        <div><h1>hello</h1></div>
-                        <div><h1>hello</h1></div>
-                        <div><h1>hello</h1></div>
-                        
+                        <GoogleMapReact
+                            bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
+                            center={this.state.center}
+                            defaultZoom={this.state.zoom}
+                            style={{height: '300px'}}
+                        >
+                            <AnyReactComponent
+                            lat={34.052235}
+                            lng={-118.243683}
+                            text={'Google Map'}
+                            />
+                        </GoogleMapReact>
                     </div>
                </div>
     }
 }
+Contact.defaultProps = {
+    center: {lat: 59.95, lng: 30.33},
+    zoom: 11
+  };
 
-export default BackgroundImage;
+export default Contact;
