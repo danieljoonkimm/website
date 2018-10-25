@@ -26,7 +26,7 @@ const envBuild = {
   ],
   'client': [
     'NODE_ENV=development',
-    'GOOGLE=',
+    'REACT_APP_API_KEY=',
   ]
 };
 
