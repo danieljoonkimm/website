@@ -11,8 +11,24 @@ import { facebookSquare } from 'react-icons-kit/fa/facebookSquare';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 
 import GoogleMapReact from 'google-map-react';
+import pin from '../../../public/pin.png';
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
+const AnyReactComponent = ({ text }) => (
+    <div style={{
+      color: 'white', 
+      background: 'black',
+      padding: '15px 10px',
+      display: 'inline-flex',
+      textAlign: 'center',
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: '50%',
+      transform: 'translate(-50%, -50%)'
+    }}>
+      {text}
+    </div>
+  );
 
 class Contact extends Component {
     constructor() {
@@ -57,7 +73,7 @@ class Contact extends Component {
                             <AnyReactComponent
                             lat={34.052235}
                             lng={-118.243683}
-                            text={'Google Map'}
+                            text={'My Location'}
                             />
                         </GoogleMapReact>
                     </div>
