@@ -25,7 +25,8 @@ const envBuild = {
     'AWS_PORT=',
   ],
   'client': [
-    'NODE_ENV=development'
+    'NODE_ENV=development',
+    'GOOGLE=',
   ]
 };
 
