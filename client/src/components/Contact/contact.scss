@@ -1,75 +1,74 @@
-@import '../../../global/global.scss';
+@import "../../../global/global.scss";
 
-    .background-headers {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background: url('../../../public//background6.jpg');
-        padding: 120px 0;
-        background-size: cover;
-        background-attachment: fixed;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
-        margin-bottom: 1em;
+.background-headers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../../../public//background6.jpg");
+  padding: 120px 0;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1em;
+}
+
+.contact-smaller-header {
+  display: flex;
+  padding-bottom: 1em;
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: cursive;
+  }
+}
+
+.contact-header {
+  display: flex;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+
+  .contact-info {
+    display: inline;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+
+    .icon {
+      text-align: center;
     }
 
-    .contact-smaller-header {
-        display: flex;
-        padding-bottom: 1em;
-
-        h3 {
-            display: flex;
-            justify-content: center;
-            color: #fff;
-            font-family: cursive;
-        }
+    .phoneNumber {
+      text-align: center;
     }
 
-    .contact-header {
-        display: flex;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-size: 2em;
-            color: #fff;
-            font-family: 'Roboto', sans-serif;
-        }
+    .email {
+      text-align: center;
     }
 
-    .information {
-        display: flex;
-        flex-direction: column;
-
-        .contact-info {
-            display: inline;
-            font-family: 'Montserrat';
-            font-weight: bold;
-            line-height: 1.5em;
-            text-align: center;
-            margin-bottom: 1em;
-    
-            .icon {
-                text-align: center;
-            }
-    
-            .phoneNumber {
-                text-align: center;
-            }
-    
-            .email {
-                text-align: center;
-            }
-    
-            .from {
-                text-align: center;
-            }
-        }
+    .from {
+      text-align: center;
     }
+  }
+}
 
-    .footer {
-        position: absolute;
-    }
-
+.footer {
+  position: absolute;
+}
 
 //mobile
 @media only screen and (max-width: 425px) {
@@ -77,12 +76,11 @@
 
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
-    .background {
-        padding: 75px 0;
-    }
+  .background {
+    padding: 75px 0;
+  }
 }
 
 //desktop
 @media only screen and (min-width: 961px) {
-
 }

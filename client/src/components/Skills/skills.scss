@@ -1,145 +1,138 @@
-@import '../../../global/global.scss';
+@import "../../../global/global.scss";
 
 .skills {
-    font-family: 'Montserrat';
-    justify-content: center;
-    background-color: #eaeaea;
-    font-weight: bold;
-    font-size: 19px;
-    background-color: #1a1e23;
-    color: #fff;
+  font-family: "Montserrat";
+  justify-content: center;
+  background-color: #eaeaea;
+  font-weight: bold;
+  font-size: 19px;
+  background-color: #1a1e23;
+  color: #fff;
 }
 
 .skill-title {
-    h3 {
-        text-align: center;
-        padding: 1em;
-    }
+  h3 {
+    text-align: center;
+    padding: 1em;
+  }
 }
 
 .containerForSkills {
-    flex-direction: column;
-
+  flex-direction: column;
 }
 
 .headerSkills {
+  padding-top: 12px;
+
+  h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    line-height: 1em;
+    padding-bottom: 22.5px;
     padding-top: 12px;
-    
-    h1 {
-        font-size: 42px;
-        text-transform: uppercase;
-        letter-spacing: .07em;
-        line-height: 1em;
-        padding-bottom: 22.5px;
-        padding-top: 12px;
-        font-size: 50px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        color: #fff;
-    }
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
 }
 
 .moreSkills {
-
-    h1 {
-        text-align: center;
-    }
+  h1 {
+    text-align: center;
+  }
 }
 
 .react-sweet-progress-symbol {
-    padding-right: 2em;
-
+  padding-right: 2em;
 }
 
 .progress-circle {
-    height: 8em;
-    text-align: center;
+  height: 8em;
+  text-align: center;
 
-    .react-sweet-progress-symbol {
-        color: white;
-        font-weight: bold;
-    }
+  .react-sweet-progress-symbol {
+    color: white;
+    font-weight: bold;
+  }
 
-    .react-sweet-progress-symbol-absolute {
-        padding-left: 1.8em;
-    }
+  .react-sweet-progress-symbol-absolute {
+    padding-left: 1.8em;
+  }
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 .more-skills-header {
-    h1 {
-        font-size: 1.6em;
-        text-align: center;
-        padding-top: .4em;
-    }
+  h1 {
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 0.4em;
+  }
 }
 
 .react-sweet-progress {
-
-    div {
-        color: white;
-        font-weight: bold;
-    }
+  div {
+    color: white;
+    font-weight: bold;
+  }
 }
-
-
 
 //phones
 @media only screen and (max-width: 425px) {
-   
 }
 
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
-    col-sm-2 {
-        padding-right: 1em;
-        padding-left: 1em;
-    }
+  col-sm-2 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
 
-    .moreSkills-columns {
-        h1 {
-            text-transform: uppercase;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.6em;
-            font-weight: 700;
-            display: flex;
-            justify-content: center;
-        }
+  .moreSkills-columns {
+    h1 {
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.6em;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
     }
+  }
 
-    .more-skills-header {
-        h1 {
-            padding-top: .7em;
-        }
+  .more-skills-header {
+    h1 {
+      padding-top: 0.7em;
     }
+  }
 }
 
 //desktop
 @media only screen and (min-width: 961px) {
-    .skills {
-        padding-left: 3em;
-        padding-right: 3em;
-    }
+  .skills {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 
-    .moreSkills-columns {
-        h1 {
-            text-transform: uppercase;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.6em;
-            font-weight: 700;
-            display: flex;
-            justify-content: center;
-        }
+  .moreSkills-columns {
+    h1 {
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.6em;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
     }
+  }
 
-    .more-skills-header {
-        h1 {
-            padding-top: 1em;
-        }
+  .more-skills-header {
+    h1 {
+      padding-top: 1em;
     }
+  }
 }
