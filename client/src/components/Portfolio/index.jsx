@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./portfolio.scss";
 
-import fakebook from "../../../public/fakebook.png";
-import foodie from "../../../public/foodie.png";
-import slackclone from "../../../public/slackclone.png";
-import website from "../../../public/website.png";
+import fakebook from "../../../public/fakebook.jpg";
+import foodie from "../../../public/foodie.jpg";
+import slackclone from "../../../public/slackclone.jpg";
+import website from "../../../public/personalwebsite.jpg";
 
 class Portfolio extends Component {
   constructor() {
