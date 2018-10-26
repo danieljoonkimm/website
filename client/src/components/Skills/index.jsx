@@ -94,11 +94,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={80}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
@@ -110,11 +112,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={80}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
@@ -126,11 +130,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={75}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
@@ -142,11 +148,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={80}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
@@ -158,11 +166,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={99}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
@@ -174,11 +184,13 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={100}
+                  percent={99}
                   theme={{
-                    active: { trailColor: "#535B63", color: "#e44f59" }
+                    active: {
+                      trailColor: "#535B63",
+                      color: "#e44f59"
+                    }
                   }}
-                  status="success"
                 />
               </div>
             </div>
