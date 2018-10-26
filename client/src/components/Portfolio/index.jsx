@@ -28,7 +28,6 @@ class Portfolio extends Component {
                 <a href="https://github.com/Greenfield-DDCH">View Code</a>
               </p>
               <br />
-              <p className="info">Read More</p>
             </div>
           </div>
 
@@ -40,7 +39,6 @@ class Portfolio extends Component {
                 <a href="https://github.com/mdhiFoodie">View Code</a>
               </p>
               <br />
-              <p className="info">Read More</p>
             </div>
           </div>
 
@@ -54,7 +52,6 @@ class Portfolio extends Component {
                 </a>
               </p>
               <br />
-              <p className="info">Read More</p>
             </div>
           </div>
 
@@ -68,7 +65,7 @@ class Portfolio extends Component {
                 </a>
               </p>
               <br />
-              <p className="info">Read More</p>
+              <p className="info">NOW VIEWING</p>
             </div>
           </div>
         </div>
