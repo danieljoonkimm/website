@@ -19,13 +19,13 @@ const AnyReactComponent = ({ text }) => (
     style={{
       color: "white",
       background: "black",
-      padding: "15px 10px",
+      padding: "7px 28px",
       display: "inline-flex",
       textAlign: "center",
       alignItems: "center",
       justifyContent: "center",
-      borderRadius: "50%",
-      transform: "translate(-50%, -50%)"
+      borderRadius: "100%",
+      transform: "translate(-50%, -25%)"
     }}
   >
     {text}
@@ -78,8 +78,8 @@ class Contact extends Component {
             style={{ height: "300px" }}
           >
             <AnyReactComponent
-              lat={34.052235}
-              lng={-118.243683}
+              lat={34.0407}
+              lng={-118.2468}
               text={"My Location"}
             />
           </GoogleMapReact>
