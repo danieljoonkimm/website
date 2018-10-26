@@ -74,13 +74,28 @@
 @media only screen and (max-width: 425px) {
 }
 
+@media only screen and (max-width: 552px) {
+
+}
+
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
   .background {
     padding: 75px 0;
   }
+
+  .information {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
 }
 
 //desktop
 @media only screen and (min-width: 961px) {
+  .information {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 }
