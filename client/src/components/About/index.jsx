@@ -10,6 +10,7 @@ import picture6 from "../../../public/6.jpg";
 import aboutMePicture from "../../../public/aboutMePicture.jpg";
 import icecream from "../../../public/icecream.jpg";
 import graduationpic2 from "../../../public/graduation2.jpg";
+import brother from "../../../public/brother.jpg";
 // import polaroidbackground from '../../../public/polaroidbackground.jpg';
 
 class About extends Component {
@@ -70,7 +71,7 @@ class About extends Component {
               {/* <img src={polaroidbackground} alt=''/> */}
               <div className="polaroid">
                 <p>Birthday Picture</p>
-                <img src={picture1} />
+                <img src={brother} />
               </div>
               <div className="polaroid">
                 <p>Best Friends</p>
