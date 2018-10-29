@@ -25,17 +25,17 @@ class Skills extends Component {
                 <h3>Javscript</h3>
               </div>
               <Progress
-                percent={88}
+                percent={99}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
 
             <div className="skill-progress" data-aos="fade-up">
               <div className="skill-title">
-                <h3>Javscript</h3>
+                <h3>HTML/CSS3</h3>
               </div>
               <Progress
-                percent={88}
+                percent={95}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
@@ -45,7 +45,7 @@ class Skills extends Component {
                 <h3>React/Redux</h3>
               </div>
               <Progress
-                percent={88}
+                percent={94}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
@@ -54,28 +54,28 @@ class Skills extends Component {
           <div className="col-sm-6">
             <div className="skill-progress" data-aos="fade-up">
               <div className="skill-title">
-                <h3>HTML5/CSS3</h3>
+                <h3>Node/Express</h3>
               </div>
               <Progress
-                percent={88}
+                percent={92}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
             <div className="skill-progress" data-aos="fade-up">
               <div className="skill-title">
-                <h3>SQL</h3>
+                <h3>SQL/NoSQL</h3>
               </div>
               <Progress
-                percent={88}
+                percent={90}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
             <div className="skill-progress" data-aos="fade-up">
               <div className="skill-title">
-                <h3>Node</h3>
+                <h3>Git Workflow</h3>
               </div>
               <Progress
-                percent={88}
+                percent={91}
                 theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
               />
             </div>
@@ -89,12 +89,12 @@ class Skills extends Component {
           <div className="row">
             <div className="col-md-2 col-sm-4 col-xs-12">
               <div className="skill-title">
-                <h3>MySQL</h3>
+                <h3>Webpack</h3>
               </div>
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={80}
+                  percent={92}
                   theme={{
                     active: {
                       trailColor: "#535B63",
@@ -112,7 +112,7 @@ class Skills extends Component {
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={80}
+                  percent={85}
                   theme={{
                     active: {
                       trailColor: "#535B63",
@@ -125,12 +125,12 @@ class Skills extends Component {
 
             <div className="col-md-2 col-sm-4 col-xs-12">
               <div className="skill-title">
-                <h3>PostgreSQL</h3>
+                <h3>React-Native</h3>
               </div>
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={75}
+                  percent={82}
                   theme={{
                     active: {
                       trailColor: "#535B63",
@@ -161,12 +161,12 @@ class Skills extends Component {
 
             <div className="col-md-2 col-sm-4 col-xs-12">
               <div className="skill-title">
-                <h3>Webpack</h3>
+                <h3>RESTful API</h3>
               </div>
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={99}
+                  percent={87}
                   theme={{
                     active: {
                       trailColor: "#535B63",
@@ -179,12 +179,12 @@ class Skills extends Component {
 
             <div className="col-md-2 col-sm-4 col-xs-12">
               <div className="skill-title">
-                <h3>SASS</h3>
+                <h3>Babel</h3>
               </div>
               <div className="progress-circle">
                 <Progress
                   type="circle"
-                  percent={99}
+                  percent={88}
                   theme={{
                     active: {
                       trailColor: "#535B63",

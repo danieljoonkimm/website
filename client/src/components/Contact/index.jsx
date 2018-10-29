@@ -43,7 +43,7 @@ class Contact extends Component {
   }
   render() {
     return (
-      <div className="contact-container">
+      <div id="contact" className="contact-container">
         <div className="background-headers">
           <div className="contact-smaller-header" data-aos="fade-up">
             <h3>Feel free to email me!</h3>
