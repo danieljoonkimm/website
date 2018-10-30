@@ -34,16 +34,24 @@
     color: #fff;
     display: flex;
 
-    #github {
-      
-      .class {
-        display: flex;
-        justify-content: flex-end;
+    .github {
+      display: flex;
+      justify-content: flex-end;
+
+      div {
+        text-align: right;
+        color: #e44f59;
+        cursor: pointer;
+        padding-right: 2em;
       }
     }
-
-    #linkedin {
-      
+    .linkedin {
+      div {
+        text-align: left;
+        color: #e44f59;
+        cursor: pointer;
+        padding-left: 2em;
+      }
     }
   }
 }
@@ -51,11 +59,30 @@
 //tablets
 @media only screen and (min-width: 426px) and (max-width: 960px) {
   .header_container {
-    
     .header_heading {
-
       h1 {
         font-size: 8em;
+      }
+    }
+
+    .header_icons {
+  
+      .github {
+  
+        div {
+          text-align: right;
+          color: #e44f59;
+          cursor: pointer;
+          padding-right: 3em;
+        }
+      }
+      .linkedin {
+        div {
+          text-align: left;
+          color: #e44f59;
+          cursor: pointer;
+          padding-left: 3em;
+        }
       }
     }
   }
@@ -63,11 +90,30 @@
 
 @media only screen and (min-width: 961px) {
   .header_container {
-    
     .header_heading {
-
       h1 {
         font-size: 12em;
+      }
+    }
+
+    .header_icons {
+  
+      .github {
+  
+        div {
+          text-align: right;
+          color: #e44f59;
+          cursor: pointer;
+          padding-right: 7em;
+        }
+      }
+      .linkedin {
+        div {
+          text-align: left;
+          color: #e44f59;
+          cursor: pointer;
+          padding-left: 7em;
+        }
       }
     }
   }

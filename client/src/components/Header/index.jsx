@@ -24,8 +24,8 @@ class Header extends Component {
         <div className="header_heading"><h1>Daniel Kim</h1></div>
         
         <div className="header_icons">
-          <div id="github"><Icon size={40} icon={github} className="icon" /></div>
-          <div id="linkedin"><Icon size={40} icon={linkedinSquare} className="icon" /></div>
+          <div className="github" ><a href="https://github.com/danieljoonkimm"><Icon size={40} icon={github}/></a></div>
+          <div className="linkedin"><a href="https://www.linkedin.com/in/danieljoonkimm/"><Icon size={40} icon={linkedinSquare} /></a></div>
         </div>
       </div>
     );
