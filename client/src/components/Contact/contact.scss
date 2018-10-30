@@ -85,6 +85,19 @@
   }
 }
 
+.modal_container {
+  display: flex;
+  justify-content: center;
+
+  .btn-info {
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+}
+
 //mobile
 @media only screen and (max-width: 425px) {
 }
