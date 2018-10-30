@@ -7,27 +7,29 @@ class Navigation extends Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+
+    };
   }
 
   render() {
     return (
-      <div className="container child topBotomBordersOut">
+      <div className="container child topBotomBordersOut navbar-nav">
         <ul>
-          <li className="active">
-            <a href="#">Home</a>
+          <li className="nav-item active">
+            <a className="nav-link scroll" href="#">Home</a>
           </li>
-          <li>
-            <a href="#about">About Me</a>
+          <li className="nav-item">
+            <a className="nav-link scroll" href="#about">About Me</a>
           </li>
-          <li>
-            <a href="#skills">Skills</a>
+          <li className="nav-item">
+            <a className="nav-link scroll" href="#skills">Skills</a>
           </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
+          <li className="nav-item">
+            <a className="nav-link scroll" href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#contact">Contact Me</a>
+          <li className="nav-item">
+            <a className="nav-link scroll" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>

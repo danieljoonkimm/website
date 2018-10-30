@@ -70,7 +70,7 @@ class About extends Component {
             <div className="polaroid-parent">
               {/* <img src={polaroidbackground} alt=''/> */}
               <div className="polaroid">
-                <p>Birthday Picture</p>
+                <p>Family Picture</p>
                 <img src={brother} />
               </div>
               <div className="polaroid">

@@ -67,7 +67,22 @@
 }
 
 .footer {
-  position: absolute;
+  position: relative;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1a1e23;
+  color: #fff;
+
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
 }
 
 //mobile

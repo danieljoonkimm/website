@@ -5,10 +5,8 @@ import "./contact.scss";
 import { Icon } from "react-icons-kit";
 import { location } from "react-icons-kit/icomoon/location";
 import { phone } from "react-icons-kit/icomoon/phone";
-import { github } from "react-icons-kit/icomoon/github";
 import { ic_mail_outline } from "react-icons-kit/md/ic_mail_outline";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
-import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
 
 import GoogleMapReact from "google-map-react";
 import pin from "../../../public/pin.png";
@@ -18,7 +16,7 @@ const AnyReactComponent = ({ text }) => (
   <div
     style={{
       color: "white",
-      background: "black",
+      background: "#1a1e23",
       padding: "7px 28px",
       display: "inline-flex",
       textAlign: "center",
@@ -84,13 +82,13 @@ class Contact extends Component {
             />
           </GoogleMapReact>
         </div>
+
+        <div className='footerWrapper'>
+          <div className='footerContainer'>Daniel Kim © 2018</div>
+        </div>
       </div>
     );
   }
 }
-Contact.defaultProps = {
-  center: { lat: 59.95, lng: 30.33 },
-  zoom: 11
-};
 
 export default Contact;

@@ -7,6 +7,10 @@ import background3 from "../../../public/background3.jpg";
 import background4 from "../../../public/background4.jpg";
 import background5 from "../../../public/background5.jpg";
 
+import { Icon } from "react-icons-kit";
+import { github } from 'react-icons-kit/icomoon/github';
+import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
+
 class Header extends Component {
   constructor() {
     super();
@@ -16,21 +20,12 @@ class Header extends Component {
 
   render() {
     return (
-      <div id="header" className="slider">
-        <figure>
-          <img src={background1} />
-          <img src={background2} />
-          <img src={background3} />
-          <img src={background4} />
-          <img src={background5} />
-        </figure>
-        <div className="wrapper">
-          <Typed
-            className="wrapper-child"
-            strings={["^1000 DANIEL KIM"]}
-            typeSpeed={80}
-            showCursor={false}
-          />
+      <div className="header_container">
+        <div className="header_heading"><h1>Daniel Kim</h1></div>
+        
+        <div className="header_icons">
+          <div id="github"><Icon size={40} icon={github} className="icon" /></div>
+          <div id="linkedin"><Icon size={40} icon={linkedinSquare} className="icon" /></div>
         </div>
       </div>
     );
