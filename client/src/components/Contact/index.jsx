@@ -112,7 +112,7 @@ class Contact extends Component {
                   <h4 className="modal-title">Send Email to Daniel</h4>
                 </div>
                 <div className="modal-body">
-                  <textarea rows="4" cols="50" placeholder="write your message" />
+                  <textarea rows="4" cols="50" placeholder="write your message.." />
                 </div>
                 <div className="modal-footer">
                   <button
