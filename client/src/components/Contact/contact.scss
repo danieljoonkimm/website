@@ -97,6 +97,11 @@
     font-weight: bold;
   }
 
+  .modal-content {
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
   .modal-title {
     text-align: center;
   }
@@ -106,6 +111,18 @@
       width: 100%;
     }
   }
+}
+
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
 }
 
 //mobile

@@ -103,7 +103,8 @@ class Contact extends Component {
             role="dialog"
             backdrop="false"
           >
-            <div className="modal-dialog">
+          <div className="vertical-alignment-helper">
+            <div className="modal-dialog vertical-align-center">
               <div className="modal-content">
                 <div className="modal-header">
                   <button type="button" className="close" data-dismiss="modal">
@@ -131,6 +132,7 @@ class Contact extends Component {
                   </button>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

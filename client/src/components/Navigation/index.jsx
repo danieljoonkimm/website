@@ -16,19 +16,19 @@ class Navigation extends Component {
     return (
       <div className="container child topBotomBordersOut navbar-nav">
         <ul className="smooth-scroll">
-          <li className="nav-item active" id="#">
+          <li className="nav-item active">
             <a className="nav-link scroll" href="#">Home</a>
           </li>
-          <li className="nav-item" id="about">
+          <li className="nav-item">
             <a className="nav-link scroll" href="#about">About Me</a>
           </li>
-          <li className="nav-item" id="skills">
+          <li className="nav-item">
             <a className="nav-link scroll" href="#skills">Skills</a>
           </li>
-          <li className="nav-item" id="portfolio">
+          <li className="nav-item">
             <a className="nav-link scroll" href="#portfolio">Portfolio</a>
           </li>
-          <li className="nav-item" id="contact">
+          <li className="nav-item">
             <a className="nav-link scroll" href="#contact">Contact Me</a>
           </li>
         </ul>
