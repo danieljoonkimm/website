@@ -67,25 +67,6 @@ class Contact extends Component {
           </div>
         </div>
 
-        <div className="footer">
-          <GoogleMapReact
-            bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
-            center={this.state.center}
-            defaultZoom={this.state.zoom}
-            style={{ height: "300px" }}
-          >
-            <AnyReactComponent
-              lat={34.0407}
-              lng={-118.2468}
-              text={"My Location"}
-            />
-          </GoogleMapReact>
-        </div>
-
-        <div className="footerWrapper">
-          <div className="footerContainer">Daniel Kim © 2018</div>
-        </div>
-
         <div className="modal_container">
           <button
             type="button"
@@ -102,38 +83,65 @@ class Contact extends Component {
             role="dialog"
             backdrop="false"
           >
-          <div className="vertical-alignment-helper">
-            <div className="modal-dialog vertical-align-center">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <button type="button" className="close" data-dismiss="modal">
-                    &times;
-                  </button>
-                  <h4 className="modal-title">Send Email to Daniel</h4>
-                </div>
-                <div className="modal-body">
-                  <textarea rows="4" cols="50" placeholder="write your message.." />
-                </div>
-                <div className="modal-footer">
-                  <button
-                    type="button"
-                    className="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Send
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-default"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
+            <div className="vertical-alignment-helper">
+              <div className="modal-dialog vertical-align-center">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <button
+                      type="button"
+                      className="close"
+                      data-dismiss="modal"
+                    >
+                      &times;
+                    </button>
+                    <h4 className="modal-title">Send Email to Daniel</h4>
+                  </div>
+                  <div className="modal-body">
+                    <textarea
+                      rows="4"
+                      cols="50"
+                      placeholder="write your message.."
+                    />
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Send
+                    </button>
+                    <button
+                      type="button"
+                      className="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
           </div>
+        </div>
+
+        <div className="footerWrapper">
+          <div className="footerContainer">Daniel Kim © 2018</div>
+        </div>
+
+        <div className="footer">
+          <GoogleMapReact
+            bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
+            center={this.state.center}
+            defaultZoom={this.state.zoom}
+            style={{ height: "300px" }}
+          >
+            <AnyReactComponent
+              lat={34.0407}
+              lng={-118.2468}
+              text={"My Location"}
+            />
+          </GoogleMapReact>
         </div>
       </div>
     );
