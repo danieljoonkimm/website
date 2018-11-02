@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import Typed from "react-typed";
 import "./header.scss";
-import background1 from "../../../public/background1.jpg";
-import background2 from "../../../public/background2.jpg";
-import background3 from "../../../public/background3.jpg";
-import background4 from "../../../public/background4.jpg";
-import background5 from "../../../public/background5.jpg";
 
 import { Icon } from "react-icons-kit";
 import { github } from 'react-icons-kit/icomoon/github';

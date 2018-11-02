@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./portfolio.scss";
 
-import fakebook from "../../../public/fakebook.jpg";
-import foodie from "../../../public/foodie.jpg";
-import slackclone from "../../../public/slackclone.jpg";
-import website from "../../../public/personalwebsite.jpg";
+const fakebook = "https://d1ytdcprkw2jhh.cloudfront.net/fakebook.jpg";
+const foodie = "https://d1ytdcprkw2jhh.cloudfront.net/foodie.jpg";
+const slackclone = "https://d1ytdcprkw2jhh.cloudfront.net/slackclone.jpg";
+const website = "https://d1ytdcprkw2jhh.cloudfront.net/personalwebsite.jpg";
 
 class Portfolio extends Component {
   constructor() {

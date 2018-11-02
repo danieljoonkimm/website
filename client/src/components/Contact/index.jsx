@@ -9,7 +9,6 @@ import { ic_mail_outline } from "react-icons-kit/md/ic_mail_outline";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
 
 import GoogleMapReact from "google-map-react";
-import pin from "../../../public/pin.png";
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
 const AnyReactComponent = ({ text }) => (

@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import "./about.scss";
 
-import picture1 from "../../../public/1.jpg";
-import picture2 from "../../../public/2.jpg";
-import picture3 from "../../../public/3.jpg";
-import picture4 from "../../../public/4.jpg";
-import picture5 from "../../../public/5.jpg";
-import picture6 from "../../../public/6.jpg";
-import aboutMePicture from "../../../public/aboutMePicture.jpg";
-import icecream from "../../../public/icecream.jpg";
-import graduationpic2 from "../../../public/graduation2.jpg";
-import brother from "../../../public/brother.jpg";
+const picture2 = "https://d1ytdcprkw2jhh.cloudfront.net/2.jpg";
+const picture3 = "https://d1ytdcprkw2jhh.cloudfront.net/3.jpg";
+const picture4 = "https://d1ytdcprkw2jhh.cloudfront.net/4.jpg";
+const picture5 = "https://d1ytdcprkw2jhh.cloudfront.net/5.jpg";
+const picture6 = "https://d1ytdcprkw2jhh.cloudfront.net/6.jpg";
+const aboutMePicture = "https://d1ytdcprkw2jhh.cloudfront.net/aboutMePicture.jpg";
+const icecream = "https://d1ytdcprkw2jhh.cloudfront.net/icecream.jpg";
+const graduationpic2 = "https://d1ytdcprkw2jhh.cloudfront.net/graduation2.jpg";
+const brother = "https://d1ytdcprkw2jhh.cloudfront.net/brother.jpg";
 // import polaroidbackground from '../../../public/polaroidbackground.jpg';
 
 class About extends Component {
