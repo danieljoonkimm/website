@@ -17,7 +17,7 @@ class Navigation extends Component {
       <div className="container child topBotomBordersOut navbar-nav">
         <ul className="smooth-scroll">
           <li className="nav-item active">
-            <a className="nav-link scroll" href="#">Home</a>
+            <a className="nav-link scroll" href="#home">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link scroll" href="#about">About Me</a>

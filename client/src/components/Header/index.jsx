@@ -15,7 +15,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="header_container">
+      <div className="header_container" id="home">
         <div className="header_heading"><h1>Daniel Kim</h1></div>
         
         <div className="header_icons">
