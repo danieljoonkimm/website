@@ -29,10 +29,6 @@ const AnyReactComponent = ({ text }) => (
   </div>
 );
 
-sendMessage = () => {
-  alert('MESSAGE SENT!')
-}
-
 class Contact extends Component {
   constructor() {
     super();
@@ -112,7 +108,6 @@ class Contact extends Component {
                       type="button"
                       className="btn btn-default"
                       data-dismiss="modal"
-                      onClick={this.sendMessage.bind(this)}
                     >
                       Send
                     </button>
