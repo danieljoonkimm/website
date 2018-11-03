@@ -87,7 +87,7 @@ module.exports = {
     envVariables,
     new HtmlWebpackPlugin({
       // injects bundle.js to our new index.html
-      inject: true,
+      inject: false,
       // copys the content of the existing index.html to the new /build index.html
       template:  path.resolve('./public/dist/index.html'),
       chunksSortMode: 'dependency'
