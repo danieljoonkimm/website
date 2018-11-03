@@ -3,6 +3,8 @@ const webpack = require('webpack');
 const { resolve } = require('path');
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 // const extractStyles = new MiniCssExtractPlugin({
 //   filename: "main.css",
@@ -26,10 +28,10 @@ const envVariables = new webpack.DefinePlugin({
 module.exports = {
   entry: [ 'babel-polyfill', resolve('./src/index') ],
   output: {
-    path: resolve('./public/dist'),
+    path: resolve('../build'),
     filename: 'bundle.js'
   },
-  mode: 'development',
+  mode: 'production',
   watch: true,
   module: {
     rules: [
@@ -82,6 +84,13 @@ module.exports = {
     extensions: [ '.js', '.jsx' ]
   },
   plugins: [
-    envVariables
+    envVariables,
+    new HtmlWebpackPlugin({
+      // injects bundle.js to our new index.html
+      inject: true,
+      // copys the content of the existing index.html to the new /build index.html
+      template:  path.resolve('./public/dist/index.html'),
+    }),
+
   ]
 };
