@@ -81,7 +81,8 @@ class Contact extends Component {
             className="modal fade"
             id="myModal"
             role="dialog"
-            backdrop="false"
+            backdrop="true"
+            keyboard="true"
           >
             <div className="vertical-alignment-helper">
               <div className="modal-dialog vertical-align-center">
