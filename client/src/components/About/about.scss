@@ -75,6 +75,7 @@
     flex-direction: row;
     justify-content: flex-start;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 
     .polaroid {
       position: relative;
