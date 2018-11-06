@@ -76,6 +76,8 @@
     justify-content: flex-start;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
 
     .polaroid {
       position: relative;
