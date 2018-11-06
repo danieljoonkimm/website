@@ -25,7 +25,7 @@ const envVariables = new webpack.DefinePlugin({
 });
 
 module.exports = {
-  entry: [ 'babel-polyfill', path.resolve('./src/index') ],
+  entry: [ 'idempotent-babel-polyfill', path.resolve('./src/index') ],
   output: {
     path: path.resolve('./public/dist'),
     filename: 'bundle.js'
