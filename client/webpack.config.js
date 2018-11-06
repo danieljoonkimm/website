@@ -27,10 +27,10 @@ const envVariables = new webpack.DefinePlugin({
 module.exports = {
   entry: [ 'babel-polyfill', path.resolve('./src/index') ],
   output: {
-    path: path.resolve('../build'),
+    path: path.resolve('./public/dist'),
     filename: 'bundle.js'
   },
-  mode: 'production',
+  mode: 'development',
   watch: true,
   module: {
     rules: [
@@ -83,14 +83,7 @@ module.exports = {
     extensions: [ '.js', '.jsx' ]
   },
   plugins: [
-    envVariables,
-    new HtmlWebpackPlugin({
-          // injects bundle.js to our new index.html
-          inject: true,
-          // copys the content of the existing index.html to the new /build index.html
-          template:  path.resolve('./public/dist/index.html'),
-          chunksSortMode: 'dependency'
-        }),
+    envVariables
     
   ]
 };
