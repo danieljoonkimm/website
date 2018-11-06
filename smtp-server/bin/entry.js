@@ -1,5 +1,5 @@
 require('babel-register'); 
-require('babel-polyfill');
+require('idempotent-babel-polyfill');
 
 const fs = require('fs');
 const path = require('path');
