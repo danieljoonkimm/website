@@ -9,10 +9,7 @@ import Portfolio from "../components/Portfolio";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ReallySmoothScroll from "really-smooth-scroll";
 import "smoothscroll";
-
-ReallySmoothScroll.shim();
 
 AOS.init();
 
