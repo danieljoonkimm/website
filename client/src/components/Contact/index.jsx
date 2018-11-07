@@ -6,7 +6,8 @@ import { Icon } from "react-icons-kit";
 import { location } from "react-icons-kit/icomoon/location";
 import { phone } from "react-icons-kit/icomoon/phone";
 import { ic_mail_outline } from "react-icons-kit/md/ic_mail_outline";
-import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
+import pin from '../../../public/images/pin.png';
+
 
 import GoogleMapReact from "google-map-react";
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
@@ -38,6 +39,12 @@ class Contact extends Component {
       zoom: 11
     };
   }
+
+  sendMessage() {
+    alert('Message has been successfully sent!');
+    document.getElementById("textArea").value = "";
+  }
+
   render() {
     return (
       <div id="contact" className="contact-container">
@@ -97,14 +104,14 @@ class Contact extends Component {
                     <h4 className="modal-title">Send Email to Daniel</h4>
                   </div>
                   <div className="modal-body">
-                    <textarea
+                    <textarea id="textArea"
                       rows="4"
                       cols="50"
                       placeholder="write your message.."
                     />
                   </div>
                   <div className="modal-footer">
-                    <button
+                    <button onClick={this.sendMessage.bind(this)}
                       type="button"
                       className="btn btn-default"
                       data-dismiss="modal"
@@ -136,6 +143,7 @@ class Contact extends Component {
               lat={34.0407}
               lng={-118.2468}
               text={"My Location"}
+
             />
           </GoogleMapReact>
         </div>
