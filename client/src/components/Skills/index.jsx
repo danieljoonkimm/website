@@ -87,7 +87,7 @@ class Skills extends Component {
             <h1>MORE SKILLS</h1>
           </div>
           <div className="row">
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
                 <h3>Webpack</h3>
               </div>
@@ -105,7 +105,7 @@ class Skills extends Component {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
                 <h3>Socket.iO</h3>
               </div>
@@ -123,9 +123,9 @@ class Skills extends Component {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
-                <h3>React-Native</h3>
+                <h3>Native</h3>
               </div>
               <div className="progress-circle">
                 <Progress
@@ -141,7 +141,7 @@ class Skills extends Component {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
                 <h3>PHP</h3>
               </div>
@@ -159,9 +159,9 @@ class Skills extends Component {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
-                <h3>RESTful API</h3>
+                <h3>API</h3>
               </div>
               <div className="progress-circle">
                 <Progress
@@ -177,7 +177,7 @@ class Skills extends Component {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-4 col-xs-12">
+            <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
                 <h3>Babel</h3>
               </div>
