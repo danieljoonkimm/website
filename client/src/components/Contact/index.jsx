@@ -133,7 +133,7 @@ class Contact extends Component {
           </div>
         </div>
 
-        <div className="footer">
+        {/* <div className="footer">
           <GoogleMapReact
             bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
             center={this.state.center}
@@ -146,7 +146,7 @@ class Contact extends Component {
               text={"My Location"}
             />
           </GoogleMapReact>
-        </div>
+        </div> */}
 
         <div className="footerWrapper">
           <div className="footerContainer">Daniel Kim © 2018</div>

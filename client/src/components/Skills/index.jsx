@@ -26,7 +26,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={99}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
 
@@ -36,7 +36,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={95}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
 
@@ -46,7 +46,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={94}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
           </div>
@@ -58,7 +58,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={92}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
             <div className="skill-progress" data-aos="fade-up">
@@ -67,7 +67,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={90}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
             <div className="skill-progress" data-aos="fade-up">
@@ -76,7 +76,7 @@ class Skills extends Component {
               </div>
               <Progress
                 percent={91}
-                theme={{ active: { trailColor: "#535B63", color: "#e44f59" } }}
+                theme={{ active: { trailColor: "#535B63", color: "#fff" } }}
               />
             </div>
           </div>
@@ -98,7 +98,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
@@ -116,7 +116,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
@@ -134,7 +134,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
@@ -152,7 +152,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
@@ -170,7 +170,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
@@ -188,7 +188,7 @@ class Skills extends Component {
                   theme={{
                     active: {
                       trailColor: "#535B63",
-                      color: "#e44f59"
+                      color: "#fff"
                     }
                   }}
                 />
