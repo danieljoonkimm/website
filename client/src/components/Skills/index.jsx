@@ -125,7 +125,7 @@ class Skills extends Component {
 
             <div className="col-md-2 col-sm-4 col-xs-6">
               <div className="skill-title">
-                <h3>Native</h3>
+                <h3>AWS</h3>
               </div>
               <div className="progress-circle">
                 <Progress

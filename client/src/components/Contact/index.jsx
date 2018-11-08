@@ -11,24 +11,6 @@ import pin from "../../../public/images/pin.png";
 import GoogleMapReact from "google-map-react";
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
-const AnyReactComponent = ({ text }) => (
-  <div
-    style={{
-      color: "white",
-      background: "#1a1e23",
-      padding: "7px 28px",
-      display: "inline-flex",
-      textAlign: "center",
-      alignItems: "center",
-      justifyContent: "center",
-      borderRadius: "100%",
-      transform: "translate(-50%, -25%)"
-    }}
-  >
-    {text}
-  </div>
-);
-
 class Contact extends Component {
   constructor() {
     super();
@@ -49,11 +31,8 @@ class Contact extends Component {
           defaultZoom={this.state.zoom}
           style={{ height: "300px" }}
         >
-          <AnyReactComponent
-            lat={34.0407}
-            lng={-118.2468}
-            text={"My Location"}
-          />
+        <img src={pin} style={{height: "20px", width: "auto"}}
+        />
         </GoogleMapReact>
       )
     });
