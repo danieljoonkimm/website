@@ -17,6 +17,8 @@ class Header extends Component {
     return (
       <div className="header_container" id="home">
         <div className="header_heading"><h1>Daniel Kim</h1></div>
+
+        <div className="header_heading2">Front-End Engineer</div>
         
         <div className="header_icons">
         <a className="iconLinks" href="https://github.com/danieljoonkimm"><div className='githubContainer'>
