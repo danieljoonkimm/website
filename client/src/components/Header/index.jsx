@@ -19,8 +19,14 @@ class Header extends Component {
         <div className="header_heading"><h1>Daniel Kim</h1></div>
         
         <div className="header_icons">
+        <div className='githubContainer'>
           <div className="github" ><a href="https://github.com/danieljoonkimm"><Icon size={40} icon={github}/></a></div>
+          <div className='githubText'>Github</div>
+          </div>
+          <div className='linkedinContainer'>
           <div className="linkedin"><a href="https://www.linkedin.com/in/danieljoonkimm/"><Icon size={40} icon={linkedinSquare} /></a></div>
+          <div className='linkedinText'>LinkedIn</div>
+          </div>
         </div>
       </div>
     );

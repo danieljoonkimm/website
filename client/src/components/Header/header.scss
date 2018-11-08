@@ -36,15 +36,24 @@
     flex-direction: column;
     justify-content: center;
 
+    .githubContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .github {
       display: flex;
-      text-align: center;
+      margin-right: 1em;
       div {
-        display: flex;
+        text-align: right;
         color: #fff;
         cursor: pointer;
-        justify-content: center;
       }
+    }
+
+    .linkedinContainer {
+
     }
     .linkedin {
       display: flex;
