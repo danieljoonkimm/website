@@ -2,7 +2,6 @@ require('dotenv').config();
 const webpack = require('webpack');
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 // const extractStyles = new MiniCssExtractPlugin({
@@ -25,7 +24,7 @@ const envVariables = new webpack.DefinePlugin({
 });
 
 module.exports = {
-  entry: [ 'idempotent-babel-polyfill', path.resolve('./src/index') ],
+  entry: ['babel-polyfill', path.resolve('./src/index') ],
   output: {
     path: path.resolve('./public/dist'),
     filename: 'bundle.js'

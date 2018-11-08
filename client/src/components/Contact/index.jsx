@@ -35,8 +35,28 @@ class Contact extends Component {
 
     this.state = {
       center: { lat: 34.052235, lng: -118.243683 },
-      zoom: 11
+      zoom: 11,
+      googleMap: ""
     };
+  }
+
+  componentDidMount() {
+    this.setState({
+      googleMap: (
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
+          center={this.state.center}
+          defaultZoom={this.state.zoom}
+          style={{ height: "300px" }}
+        >
+          <AnyReactComponent
+            lat={34.0407}
+            lng={-118.2468}
+            text={"My Location"}
+          />
+        </GoogleMapReact>
+      )
+    });
   }
 
   sendMessage() {
@@ -133,20 +153,7 @@ class Contact extends Component {
           </div>
         </div>
 
-        {/* <div className="footer">
-          <GoogleMapReact
-            bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
-            center={this.state.center}
-            defaultZoom={this.state.zoom}
-            style={{ height: "300px" }}
-          >
-            <AnyReactComponent
-              lat={34.0407}
-              lng={-118.2468}
-              text={"My Location"}
-            />
-          </GoogleMapReact>
-        </div> */}
+        <div className="footer">{this.state.googleMap}</div>
 
         <div className="footerWrapper">
           <div className="footerContainer">Daniel Kim © 2018</div>
