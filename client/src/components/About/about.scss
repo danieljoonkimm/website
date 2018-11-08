@@ -76,7 +76,6 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
-    scroll-snap-align: center;
 
     .polaroid {
       position: relative;
@@ -92,6 +91,7 @@
       margin-top: 5px;
       width: auto;
       height: 250px;
+      scroll-snap-align: center;
     }
 
     .polaroid p {
