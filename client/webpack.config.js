@@ -2,6 +2,7 @@ require('dotenv').config();
 const webpack = require('webpack');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 
 const optimizeStyles = new OptimizeCssAssetsPlugin({
@@ -10,6 +11,12 @@ const optimizeStyles = new OptimizeCssAssetsPlugin({
   cssProcessorOptions: { discardComments: { removeAll: true } },
   canPrint: true
 });
+
+const extractStyles = new MiniCssExtractPlugin({
+  filename: "main.css",
+  chunkFilename: "[id].css"
+});
+
 
 const envVariables = new webpack.DefinePlugin({
   'process.env': {
@@ -78,12 +85,10 @@ module.exports = {
   },
   plugins: [
     envVariables,
+    optimizeStyles,
     new HtmlWebpackPlugin({
-      // injects bundle.js to our new index.html
       inject: true,
-      // copys the content of the existing index.html to the new /build index.html
       template:  path.resolve('./public/dist/index.html'),
     }),
-    
   ]
 };
