@@ -28,10 +28,10 @@ const envVariables = new webpack.DefinePlugin({
 module.exports = {
   entry: ['babel-polyfill', path.resolve('./src/index') ],
   output: {
-    path: path.resolve('./public/dist'),
+    path: path.resolve('../build'),
     filename: 'bundle.js'
   },
-  mode: 'development',
+  mode: 'production',
   watch: true,
   module: {
     rules: [
@@ -86,6 +86,10 @@ module.exports = {
   plugins: [
     envVariables,
     optimizeStyles,
-    extractStyles
+    extractStyles,
+    new HtmlWebpackPlugin({
+      inject: true,
+      template:  path.resolve('./public/dist/index.html'),
+    }),
   ]
 };
