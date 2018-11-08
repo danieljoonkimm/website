@@ -33,24 +33,27 @@
   .header_icons {
     color: #fff;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .github {
       display: flex;
-      justify-content: flex-end;
-
+      text-align: center;
       div {
-        text-align: right;
+        display: flex;
         color: #fff;
         cursor: pointer;
-        padding-right: 2em;
+        justify-content: center;
       }
     }
     .linkedin {
+      display: flex;
+      text-align: center;
       div {
-        text-align: left;
+        display: flex;
         color: #fff;
         cursor: pointer;
-        padding-left: 2em;
+        justify-content: center;
       }
     }
   }
