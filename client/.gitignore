@@ -1,5 +1,4 @@
 node_modules
 package.lock-json
-build/bundle.js
 dist/bundle.js
 .env
