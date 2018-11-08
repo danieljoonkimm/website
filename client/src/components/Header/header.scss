@@ -40,6 +40,11 @@
     font-weight: bold;
     text-transform: uppercase;
 
+    .iconLinks {
+      display: flex;
+      justify-content: center;
+    }
+
     .githubContainer {
       display: flex;
       justify-content: center;
