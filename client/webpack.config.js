@@ -90,5 +90,6 @@ module.exports = {
       inject: true,
       template:  path.resolve('./public/dist/index.html'),
     }),
+    optimizeStyles
   ]
 };
