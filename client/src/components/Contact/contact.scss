@@ -134,6 +134,15 @@
   .vertical-alignment-helper {
     width: 100%;
   }
+
+  .information {
+    padding: 1em;
+  }
+
+  .contact-info {
+    border: 1px solid black;
+    border-radius: 4px;
+  }
 }
 
 @media only screen and (max-width: 552px) {
