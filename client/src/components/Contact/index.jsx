@@ -6,7 +6,7 @@ import { Icon } from "react-icons-kit";
 import { location } from "react-icons-kit/icomoon/location";
 import { phone } from "react-icons-kit/icomoon/phone";
 import { ic_mail_outline } from "react-icons-kit/md/ic_mail_outline";
-import pin from "../../../public/images/pin.png";
+const pin = "https://d1ytdcprkw2jhh.cloudfront.net/pin.png";
 
 import GoogleMapReact from "google-map-react";
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
