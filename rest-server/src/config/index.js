@@ -14,7 +14,7 @@ const middleWare = [
   }),
   parser.json(),
   parser.urlencoded( { extended: true } ),
-  express.static( resolve( __dirname, '../../../client/public/dist/') ) 
+  express.static( resolve( __dirname, '../../../client/public/dist') ) 
 ]
 
 class App {
