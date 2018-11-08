@@ -18,7 +18,9 @@ class Contact extends Component {
     this.state = {
       center: { lat: 34.052235, lng: -118.243683 },
       zoom: 11,
-      googleMap: ""
+      googleMap: "",
+      pin: <img src={pin} style={{height: "20px", width: "auto"}}
+      />
     };
   }
 
@@ -31,8 +33,7 @@ class Contact extends Component {
           defaultZoom={this.state.zoom}
           style={{ height: "300px" }}
         >
-        <img src={pin} style={{height: "20px", width: "auto"}}
-        />
+        {this.state.pin}
         </GoogleMapReact>
       )
     });
