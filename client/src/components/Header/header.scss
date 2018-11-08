@@ -39,7 +39,19 @@
     .githubContainer {
       display: flex;
       justify-content: center;
+      
+      border: 1px solid white;
+      box-sizing: border-box;
+      width: fit-content;
+      width:-webkit-fit-content; 
+      width:-moz-fit-content;
       align-items: center;
+      align-self: center;
+      padding-right: 3em;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      padding-left: 3em;
+      margin-bottom: 1em;
     }
 
     .github {
@@ -53,16 +65,28 @@
     }
 
     .linkedinContainer {
+      display: flex;
+      justify-content: center;
 
+      border: 1px solid white;
+      box-sizing: border-box;
+      width: fit-content;
+      width:-webkit-fit-content; 
+      width:-moz-fit-content;
+      align-items: center;
+      align-self: center;
+      padding-right: 2.55em;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      padding-left: 2.55em;
     }
     .linkedin {
       display: flex;
-      text-align: center;
+      margin-right: 1em;
       div {
-        display: flex;
+        text-align: right;
         color: #fff;
         cursor: pointer;
-        justify-content: center;
       }
     }
   }
