@@ -86,5 +86,6 @@ module.exports = {
   plugins: [
     envVariables,
     optimizeStyles,
+    extractStyles
   ]
 };
