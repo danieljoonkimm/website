@@ -27,7 +27,7 @@
   h1 {
     font-size: 42px;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.5em;
     line-height: 1em;
     padding-bottom: 22.5px;
     padding-top: 12px;
@@ -43,6 +43,13 @@
 .moreSkills {
   h1 {
     text-align: center;
+  }
+}
+
+.moreSkills-columns {
+  h1 {
+    font-family: "Montserrat", sans-serif, "Roboto";
+    font-weight: bold;
   }
 }
 
@@ -102,9 +109,7 @@
   .moreSkills-columns {
     h1 {
       text-transform: uppercase;
-      font-family: "Roboto", sans-serif;
       font-size: 1.6em;
-      font-weight: 500;
       display: flex;
       justify-content: center;
     }
@@ -127,9 +132,7 @@
   .moreSkills-columns {
     h1 {
       text-transform: uppercase;
-      font-family: "Roboto", sans-serif;
       font-size: 1.6em;
-      font-weight: 500;
       display: flex;
       justify-content: center;
     }

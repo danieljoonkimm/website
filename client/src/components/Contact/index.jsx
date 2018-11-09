@@ -101,6 +101,7 @@ class Contact extends Component {
                       &times;
                     </button>
                     <h4 className="modal-title">Send Email to Daniel</h4>
+                    Name: <input placeholder="insert name"></input>
                   </div>
                   <div className="modal-body">
                     <textarea
