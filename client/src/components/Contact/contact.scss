@@ -8,7 +8,7 @@
   padding: 120px 0;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 0 1000px #000000b3;
   margin-bottom: 1em;
 }
 
@@ -169,6 +169,10 @@
       padding-bottom: 0.3em;
     }
   }
+
+  .modal_container button {
+    font-size: 0.9em;
+  }
 }
 
 //desktop
@@ -185,5 +189,9 @@
       padding-top: 0.3em;
       padding-bottom: 0.3em;
     }
+  }
+
+  .modal_container button {
+    font-size: 0.9em;
   }
 }
