@@ -24,20 +24,20 @@ class Contact extends Component {
     };
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     googleMap: (
-  //       <GoogleMapReact
-  //         bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
-  //         center={this.state.center}
-  //         defaultZoom={this.state.zoom}
-  //         style={{ height: "300px" }}
-  //       >
-  //       {this.state.pin}
-  //       </GoogleMapReact>
-  //     )
-  //   });
-  // }
+  componentDidMount() {
+    this.setState({
+      googleMap: (
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: REACT_APP_API_KEY }}
+          center={this.state.center}
+          defaultZoom={this.state.zoom}
+          style={{ height: "300px" }}
+        >
+        {this.state.pin}
+        </GoogleMapReact>
+      )
+    });
+  }
 
   sendMessage() {
     alert("Message has been successfully sent!");
@@ -133,7 +133,7 @@ class Contact extends Component {
           </div>
         </div>
 
-        {/* <div className="footer">{this.state.googleMap}</div> */}
+        <div className="footer">{this.state.googleMap}</div>
 
         <div className="footerWrapper">
           <div className="footerContainer">Daniel Kim © 2018</div>
