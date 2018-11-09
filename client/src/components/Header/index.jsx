@@ -35,12 +35,13 @@ class Header extends Component {
             >
               <div className="githubContainer">
                 <div className="github">
-                  <Icon size={15} icon={github} />
+                  <Icon className="icons" size={15} icon={github} />
                 </div>
                 <div className="githubText">Github</div>
               </div>
             </a>
           </div>
+          <div className="iconContents">
           <a
             className="iconLinks"
             href="https://www.linkedin.com/in/danieljoonkimm/"
@@ -53,6 +54,8 @@ class Header extends Component {
               <div className="linkedinText">LinkedIn</div>
             </div>
           </a>
+          </div>
+          <div className="iconContents">
           <a
             className="iconLinks"
             id="resumeIcon"
@@ -67,6 +70,7 @@ class Header extends Component {
               <div className="resumeText">Resume</div>
             </div>
           </a>
+          </div>
         </div>
       </div>
     );
