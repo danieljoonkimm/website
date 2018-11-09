@@ -47,6 +47,7 @@
     text-align: center;
     margin-top: 1.5em;
     line-height: 2em;
+    margin-bottom: 3em;
   }
 
   .header_icons {
@@ -59,6 +60,7 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1em;
+    width: 100%;
 
     .iconLinks {
       display: flex;
@@ -72,9 +74,9 @@
 
       border: 1px solid white;
       box-sizing: border-box;
-      width: fit-content;
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
+      // width: fit-content;
+      // width: -webkit-fit-content;
+      // width: -moz-fit-content;
       align-items: center;
       align-self: center;
     }
@@ -92,15 +94,14 @@
     .linkedinContainer {
       display: flex;
       justify-content: center;
-
-      border: 1px solid white;
+      border-radius: 4px;
       box-sizing: border-box;
-      width: fit-content;
-      width: -webkit-fit-content;
-      width: -moz-fit-content;
+      border: 1px solid #fff;
       align-items: center;
       align-self: center;
-      border-radius: 4px;
+      // width: fit-content;
+      // width: -webkit-fit-content;
+      // width: -moz-fit-content;
     }
     .linkedin {
       display: flex;
@@ -109,6 +110,26 @@
         text-align: right;
         color: #fff;
         cursor: pointer;
+      }
+    }
+
+    .resumeContainer {
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      box-sizing: border-box;
+      border: 1px solid #fff;
+      align-items: center;
+      align-self: center;
+
+      .resume {
+        display: flex;
+        margin-right: 1em;
+        div {
+          text-align: right;
+          color: #fff;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -120,20 +141,26 @@
     background-attachment: initial;
   }
 
-  .githubContainer {
-    padding-right: 3em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    padding-left: 3em;
-    margin-bottom: 1em;
-    margin-top: 0.5em;
-  }
+  .header_icons {
+    font-size: 0.8em;
 
-  .linkedinContainer {
-    padding-right: 1.98em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    padding-left: 1.98em;
+    .githubContainer {
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+      margin-bottom: 1em;
+      margin-top: 0.5em;
+    }
+
+    .linkedinContainer {
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+      margin-bottom: 1em;
+    }
+
+    .resumeContainer {
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+    }
   }
 }
 
@@ -151,11 +178,23 @@
       flex-direction: row;
       margin-top: 5em;
 
+      .iconLinks {
+        padding-right: 1em;
+      }
+
+      #resumeIcon {
+        padding-right: 0;
+      }
+
       .githubContainer {
         padding: 1em;
       }
 
       .linkedinContainer {
+        padding: 1em;
+      }
+
+      .resumeContainer {
         padding: 1em;
       }
 
@@ -167,6 +206,14 @@
         }
       }
       .linkedin {
+        div {
+          text-align: left;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+
+      .resume {
         div {
           text-align: left;
           color: #fff;
