@@ -133,6 +133,11 @@
 
   .view-tenth:hover .mask {
     opacity: 0.8;
+    height: 100%;
+
+    h2 {
+      font-size: 1.8em;
+    }
   }
 
   .view-tenth:hover h2,

@@ -12,7 +12,13 @@ class Header extends Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+      resume: false
+    };
+  }
+
+  downloadResume() {
+    console.log('download Resume');
   }
 
   render() {
@@ -33,7 +39,7 @@ class Header extends Component {
           <div className="linkedin"><Icon size={15} icon={linkedinSquare} /></div>
           <div className='linkedinText'>LinkedIn</div>
           </div></a>
-          <a className="iconLinks" id="resumeIcon" href="https://www.linkedin.com/in/danieljoonkimm/"><div className='resumeContainer'>
+          <a className="iconLinks" id="resumeIcon" onClick={this.downloadResume.bind(this)}><div className='resumeContainer'>
           <div className="resume"><Icon size={15} icon={book} /></div>
           <div className='resumeText'>Resume</div>
           </div></a>
