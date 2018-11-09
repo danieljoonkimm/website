@@ -236,11 +236,23 @@
       display: flex;
       flex-direction: row;
 
+      .iconLinks {
+        padding-right: 1em;
+      }
+
+      #resumeIcon {
+        padding-right: 0;
+      }
+
       .githubContainer {
         padding: 1em;
       }
 
       .linkedinContainer {
+        padding: 1em;
+      }
+
+      .resumeContainer {
         padding: 1em;
       }
 
@@ -252,6 +264,13 @@
         }
       }
       .linkedin {
+        div {
+          text-align: left;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      .resume {
         div {
           text-align: left;
           color: #fff;

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./portfolio.scss";
 
-const fakebook = "https://d1ytdcprkw2jhh.cloudfront.net/fakebook.jpg";
-const foodie = "https://d1ytdcprkw2jhh.cloudfront.net/foodie.jpg";
-const slackclone = "https://d1ytdcprkw2jhh.cloudfront.net/slackclone.jpg";
-const website = "https://d1ytdcprkw2jhh.cloudfront.net/personalwebsite.jpg";
+const fakebook = "https://d1ytdcprkw2jhh.cloudfront.net/fakebookfinal.jpg";
+const foodie = "https://d1ytdcprkw2jhh.cloudfront.net/foodiefinal2.jpg";
+const slackclone = "https://d1ytdcprkw2jhh.cloudfront.net/slackfinal.jpg";
+const website = "https://d1ytdcprkw2jhh.cloudfront.net/websitefinal2.jpg";
+
 
 class Portfolio extends Component {
   constructor() {
