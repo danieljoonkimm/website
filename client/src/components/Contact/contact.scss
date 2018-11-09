@@ -39,6 +39,7 @@
 .information {
   display: flex;
   flex-direction: column;
+  font-size: 0.9em;
 
   .contact-info {
     display: inline;
@@ -83,12 +84,14 @@
     justify-content: center;
     font-family: "Montserrat";
     font-weight: bold;
+    font-size: 0.9em;
   }
 }
 
 .modal_container {
   display: flex;
   justify-content: center;
+  font-size: 0.9em;
 
   .btn-info {
     background-color: #fff;
@@ -115,7 +118,7 @@
 }
 
 .vertical-alignment-helper {
-  display:table;
+  display: table;
   height: 100%;
   width: 50%;
   margin: auto;
@@ -141,13 +144,12 @@
 
     .contact-info {
       margin-bottom: 1em;
-      padding-top: .2em;
+      padding-top: 0.2em;
     }
   }
 }
 
 @media only screen and (max-width: 552px) {
-
 }
 
 //tablets
@@ -161,6 +163,11 @@
     grid-template-columns: auto auto auto;
     padding-left: 1em;
     padding-right: 1em;
+
+    .contact-info {
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+    }
   }
 }
 
@@ -171,7 +178,12 @@
     grid-template-columns: auto auto auto;
     padding-bottom: 1em;
     padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+
+    .contact-info {
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+    }
   }
 }

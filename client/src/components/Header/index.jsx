@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Typed from "react-typed";
 import "./header.scss";
 
 import { Icon } from "react-icons-kit";
@@ -57,8 +56,9 @@ class Header extends Component {
           <a
             className="iconLinks"
             id="resumeIcon"
-            href="d1ytdcprkw2jhh.cloudfront.net/DanielsResume.pdf"
-            download
+            href="https://d1ytdcprkw2jhh.cloudfront.net/DanielsResume.pdf"
+            download="https://d1ytdcprkw2jhh.cloudfront.net/DanielsResume.pdf"
+            target="_blank"
           >
             <div className="resumeContainer">
               <div className="resume">
