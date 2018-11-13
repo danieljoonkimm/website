@@ -57,12 +57,12 @@ class Contact extends Component {
         </div>
 
         <div className="information">
-          <div className="contact-info" data-aos="fade-up">
+          <div className="contact-phone" id="phone" data-aos="fade-up">
             <Icon size={40} icon={phone} className="icon" />
             <div className="phoneNumber">(323) 603-7431</div>
           </div>
 
-          <div className="contact-info" data-aos="fade-up">
+          <div className="contact-email" data-aos="fade-up">
             <Icon size={40} icon={ic_mail_outline} className="icon" />
             <div className="email">danieljoonkimm@gmail.com</div>
           </div>
