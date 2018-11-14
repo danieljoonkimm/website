@@ -152,9 +152,57 @@
 
     .contact-phone {
       margin-bottom: 1em;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: .2em;
+      padding-bottom: .2em;
+
+      .phoneNumber {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        width: fit-content;
+      }
     }
     .contact-email {
       margin-bottom: 1em;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: .2em;
+      padding-bottom: .2em;
+
+      .email {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        width: fit-content;
+      }
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      
+      .from {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+
+      div {
+        width: fit-content;
+      }
     }
   }
 }

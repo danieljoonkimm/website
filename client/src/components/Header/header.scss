@@ -153,17 +153,50 @@
       padding-bottom: 0.8em;
       margin-bottom: 1em;
       margin-top: 0.5em;
+
+      .github {
+        width: fit-content;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .githubText {
+        width: fit-content;
+      }
     }
 
     .linkedinContainer {
       padding-top: 0.8em;
       padding-bottom: 0.8em;
       margin-bottom: 1em;
+
+      .linkedin {
+        width: fit-content;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .linkedinText {
+        width: fit-content;
+      }
     }
 
     .resumeContainer {
       padding-top: 0.8em;
       padding-bottom: 0.8em;
+
+      .resume {
+        width: fit-content;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .resumeText {
+        width: fit-content;
+      }
     }
   }
 }
