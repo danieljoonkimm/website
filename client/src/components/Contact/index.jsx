@@ -58,17 +58,17 @@ class Contact extends Component {
 
         <div className="information">
           <div className="contact-phone" id="phone" data-aos="fade-up">
-            <Icon size={40} icon={phone} className="icon" />
+            <Icon size={30} icon={phone} className="icon" />
             <div className="phoneNumber">(323) 603-7431</div>
           </div>
 
           <div className="contact-email" data-aos="fade-up">
-            <Icon size={40} icon={ic_mail_outline} className="icon" />
+            <Icon size={30} icon={ic_mail_outline} className="icon" />
             <div className="email">danieljoonkimm@gmail.com</div>
           </div>
 
           <div className="contact-info" data-aos="fade-up">
-            <Icon size={40} icon={location} className="icon" />
+            <Icon size={30} icon={location} className="icon" />
             <div className="from">Los Angeles, CA</div>
           </div>
         </div>
