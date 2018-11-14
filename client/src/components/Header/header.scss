@@ -235,14 +235,34 @@
         padding: 1em;
       }
 
-      .github {
+      .githubContainer {
+        .github {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .githubText {
+          width: fit-content;
+        }
         div {
           text-align: right;
           color: #fff;
           cursor: pointer;
         }
       }
-      .linkedin {
+      .linkedinContainer {
+        .linkedin {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .linkedinText {
+          width: fit-content;
+        }
         div {
           text-align: left;
           color: #fff;
@@ -250,7 +270,17 @@
         }
       }
 
-      .resume {
+      .resumeContainer {
+        .resume {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .resumeText {
+          width: fit-content;
+        }
         div {
           text-align: left;
           color: #fff;
@@ -293,21 +323,51 @@
         padding: 1em;
       }
 
-      .github {
+      .githubContainer {
+        .github {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .githubText {
+          width: fit-content;
+        }
         div {
           text-align: right;
           color: #fff;
           cursor: pointer;
         }
       }
-      .linkedin {
+      .linkedinContainer {
+        .linkedin {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .linkedinText {
+          width: fit-content;
+        }
         div {
           text-align: right;
           color: #fff;
           cursor: pointer;
         }
       }
-      .resume {
+      .resumeContainer {
+        .resume {
+          width: fit-content;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        .resumeText {
+          width: fit-content;
+        }
         div {
           text-align: left;
           color: #fff;
