@@ -59,8 +59,8 @@ class Header extends Component {
           <a
             className="iconLinks"
             id="resumeIcon"
-            href="https://d1ytdcprkw2jhh.cloudfront.net/DanielsResume.pdf"
-            download="https://d1ytdcprkw2jhh.cloudfront.net/DanielsResume.pdf"
+            href="https://d1ytdcprkw2jhh.cloudfront.net/DanielsFinalResume.pdf"
+            download="https://d1ytdcprkw2jhh.cloudfront.net/DanielsFinalResume.pdf"
             target="_blank"
           >
             <div className="resumeContainer">
