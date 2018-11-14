@@ -88,7 +88,7 @@ module.exports = {
     optimizeStyles,
     extractStyles,
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: true,
       template:  path.resolve('./public/dist/index.html'),
     })
   ]
